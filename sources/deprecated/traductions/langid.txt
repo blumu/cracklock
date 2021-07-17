@@ -1,0 +1,62 @@
+Languages Supported by Windows NT
+
+Primary	Language ID's		Sub language ID's           	
+
+Neutral		0x00		Neutral				0x00
+Albanian	0x1c		Default				0x01
+Arabic		0x01		System Default			0x02
+Bahasa		0x21		Arabic (Saudia Arabia)		0x04
+Bulgarian	0x02		Arabic (Iraq)			0x08
+Byelorussian	0x23		Arabic (Egypt)			0x0C
+Catalan 	0x03		Arabic (Libya)			0x10
+Chinese		0x04		Arabic (Algeria)		0x14
+Czech		0x05		Arabic (Morocco)		0x18
+Danish		0x06		Arabic (Tuinisa)		0x1C
+Dutch		0x13		Arabic (Oman)			0x20
+English 	0x09		Arabic (Yemen)			0x24
+Estonian	0x25		Arabic (Syria)			0x28
+Farsi		0x29		Arabic (Jordan)			0x2C
+Finnish		0x0b		Arabic (Lebanon)		0x30
+French		0x0c		Arabic (Kuwait)			0x34
+German		0x07		Arabic (U.A.E.)			0x38
+Greek		0x08		Arabic (Bahrain)		0x3C
+Hebrew		0x0d		Arabic (Qatar)			0x40
+Hungarian	0x0e		Chinese (Traditional)		0x01
+Icelandic	0x0f		Chinese (Simplified)		0x02
+Italian 	0x10		Chinese (Taiwan)		0x04
+Japanese	0x11		Chinese (PRC)			0x08
+Kampuchean	0x2c		Chinese (Hong Kong)		0x0C
+Korean		0x12		Chinese (Singapore)		0x10
+Laotian		0x2b		Dutch				0x01
+Latvian		0x26		Dutch (Belgian) 		0x02
+Lithuanian	0x27		English (US)			0x01
+Maori		0x28		English (UK)			0x02
+Norwegian	0x14		English (Australian)		0x03
+Polish		0x15		English (Canadian)		0x04
+Portuguese	0x16		English (New Zealand)		0x05
+Rhaeto Roman	0x17		English (Ireland)		0x06
+Romanian	0x18		French				0x01
+Russian		0x19		French (Belgian)		0x02
+Serbo Croatian	0x1a		French (Canadian)		0x03
+Slovak		0x1b		French (Swiss)			0x04
+Spanish 	0x0a		German				0x01
+Swedish 	0x1d		German (Swiss)			0x02
+Thai		0x1e		German (Austrian)		0x03
+Turkish 	0x1f		Hebrew (Israel)			0x04
+Ukrainian	0x22		Italian				0x01
+Urdu		0x20		Italian (Swiss)			0x02
+Vietnamese	0x2a		Japanese (Japan)		0x04
+				Korean (Korea)			0x04
+				Norwegian (Bokmal)		0x01
+				Norwegian (Nynorsk)		0x02
+				Portuguese (Brazilian)		0x01
+				Portuguese			0x02
+				Serbo Croatian (Latin)		0x01
+				Serbo Croatian (Cyrillic)	0x02
+				Spanish (Traditional Sort)	0x01
+				Spanish (Mexican)		0x02
+				Spanish (Modern Sort)		0x03
+				Thai (Thailand)			0x04
+
+
+

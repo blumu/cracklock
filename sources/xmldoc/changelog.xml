@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<section>
+  	<title>Change log</title>
+
+	<variablelist>
+
+    <varlistentry>
+      <term>3.9.44 - 16 March 2008 </term>
+      <listitem>
+        <itemizedlist>
+          <listitem>
+            <para>              
+              Fixed: The setup does not set write permissions for the Cracklock.settings file, so if the user chooses
+              to store settings in cracklock's directory then it is impossible to add applications to Cracklock.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Setup: If some files that need to be updated are in use then it shows a dialog box listing all the applications that need to be stopped before proceeding with the installation/uninstallation.
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>3.9.42 - 11 March 2008 </term>
+      <listitem>
+        <itemizedlist>
+          <listitem>
+            <para>
+              <emphasis role="bold">Important bug fixed:</emphasis> Cracklock did not work in parts of the world where no daylight saving scheme is implemented!
+              (These include the following countries: Afghanistan, Bahrain, China, Hong Kong, Japan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, Macau, Mongolia, North Korea, Qatar, Kuwait, Saudi Arabia, South Korea, Nepal, Bhutan, Pakistan, India, Bangladesh, Myanmar, Taiwan, Thailand, Laos, Vietnam, Philippines, Cambodia, Malaysia, Brunei, Singapore, Indonesia, Timor Leste, Papua New Guinea, Venezuela)
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Chinese translation updated. This may become more useful now that Cracklock works in China ;-)
+            </para>
+          </listitem>          
+          <listitem>
+            <para>
+              Fixed: the default parameters for the control panel date and time applet was incorrectly set during installation.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Fixed: small bugs fixed in the Manager.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Manager: Hitting the F5 key refreshes the list
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Examples: new clock example written in C#. The VCDate and VBDate have been renamed into  C Clock Example and VB Clock Example
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </varlistentry>
+
+	<varlistentry>
+		<term>3.9.38 - 9 March 2008 </term>
+		<listitem>
+		<itemizedlist>
+      <listitem><para>New: Vista is officialy supported
+      </para></listitem> <listitem><para>New: Support for flashdisk instllation
+      </para></listitem> <listitem> <para>New: Improvements of the user interface.
+      </para></listitem> <listitem><para>New: a manifest file has been added to ensure that version 6.0 of the Windows Common controls DLL is used in order to avoid the annoying beep happening on item selection under Windows Vista.
+      </para></listitem> <listitem><para>New: The manager now allows you to configure a command line argument 
+        for each application. It will be appended to the command line when the application is runned from within the manager.
+      </para></listitem> <listitem><para>New: per-application setting called "stand-alone mode". In the normal mode the behaviour is the same as before. In full stand-alone mode, the settings and the injected DLL are copied to the program folder. In a third "in-between" mode, only the settings are stored in the application folder.
+      When adding a new application, if the file App.exe.cracklock is present in the directory then default settings are loaded from this file.
+      It is deleted when when the application is removed from cracklock.
+      </para></listitem> <listitem><para>New: option to let the user change the command parameters that are used to start the application from the Manager.
+      </para></listitem> <listitem><para>New: option in the general settings: Shared/Stand-alone installation. In shared mode, Cracklock's directory is added to the PATH environment variable. In stand-alone mode, the injected DLL is copied to each application's folder.
+      </para></listitem> <listitem><para>New: The manager now contains a manifest to ensure that version 6.0 of the Windows Common controls DLL is used in order to avoid the annoying beep happening on item selection under Windows Vista.
+      </para></listitem> <listitem><para>New: an option in the general settings allows to set the default injection mode when adding new applications to Cracklock.
+      </para></listitem> <listitem><para>New: an option that allows one to set the location of the general settings (Registry or INI file). It is also possible to save the application settings in each application's directory (this setting can be overwritten on a per-application basis).
+      </para></listitem> <listitem><para>New: a description can be assigned for each application listed in the manager.
+      </para></listitem> <listitem><para>New: The documentation is now generated from an XML DocBook file.
+      </para></listitem> <listitem><para>Bug fixed: remove a spurious message reporting that CLKERN.DLL is in use when trying to delete it from an application folder.
+      </para></listitem> <listitem><para>Bug fixed: In some very particular cases, some API calls were properly hooked.
+      </para></listitem> <listitem><para>Bug fixed: The loader now accepts relative paths.
+      </para> </listitem> <listitem> <para> Setup: There is now a new 'Flashdisk installation' mode.  In this mode, nothing is written in the Windows Registry and shortcuts are not created.
+      </para></listitem> <listitem><para>Setup: a new option let you choose where you want to store the setting file (registry, application data folder or cracklock's folder).
+      </para></listitem> <listitem><para>
+        Setup: import the settings from the registry to the INI file if the user choose to store settings in an INI file.
+      </para></listitem> <listitem><para>Change: Definition file CLKERN.def regenerated with the latest version of Kernel32.dll
+      </para></listitem> <listitem><para>Change: Date mode selected by default when adding a new app.
+      </para></listitem> <listitem><para>Change: Icons in the Manager are now shown in 32bits colors.</para></listitem> 
+    </itemizedlist>
+		</listitem>
+	</varlistentry>
+
+	<varlistentry>
+		<term>3.8.27 - 1st December 2007</term>
+		<listitem>
+		        <itemizedlist>
+		            <listitem><para>New feature: in the loader-based injection mode, the loader is now more furtive:
+		        the application cannot detect that it is being debugged.</para></listitem>
+		            <listitem><para>Fixed: When the import table of a PE file contained more than one occurrences of the module KERNEL32.DLL, the PE file could not be backed-up automatically by the manager.</para></listitem>
+		            <listitem><para>Bug fix: In some circumstance, the Cracklock manager window positioned itself in the invisible part of the screen.</para></listitem>
+		        </itemizedlist>
+		</listitem>
+	</varlistentry>
+
+	
+    
+		
+	<varlistentry>
+		<term>3.8.26 - 15 September 2007</term>
+		<listitem>
+		<itemizedlist>
+			<listitem><para>Update: Chinese and French translation updated</para></listitem>
+			<listitem><para>Fixed: The setup can again be run without requiring administrator privileges</para></listitem>
+			<listitem><para>Fixed: applications crashed if no virtual mode (time, date or timezone) was selected.</para></listitem>
+			<listitem><para>Fixed: PE executable files containing a Bound Import table caused a crash of the application.</para></listitem>
+			<listitem><para>Fixed: Link checksum in PE files are now recalculated whenever the files are altered (this only occurs in static injection mode).</para></listitem>
+			<listitem><para>Fixed: Allows the resident injector mode on Windows>=NT</para></listitem>	
+			<listitem><para>Fixed: The setup now kills the resident injector before copying files</para></listitem>
+		</itemizedlist>
+	</listitem></varlistentry>
+
+	
+	<varlistentry>
+          	<term>3.8.20 - 11 September 2007</term>
+	<listitem>
+		<itemizedlist>
+		<listitem><para>The configuration dialog has been redesigned.</para></listitem>
+		<listitem><para>New feature: you can create a shortcut on the desktop that will start the application with Cracklock loader. (There is a hotlink in the configuration dialog to create the shortcut).</para></listitem>
+		<listitem><para>New feature: there is now a Setting window available from the Manager that allows you to configure general settings for Cracklock. It contains the following options:</para>
+			<itemizedlist>
+				<listitem><para>Add/remove Cracklock to the PATH environment variable (so that an application can find CLKERN.DLL if it uses static injection)</para></listitem>
+				<listitem><para>An option to copy CLKERN.dll to the folder of each application. Usefull if you use static injection and you don't want Cracklock to be in the PATH environment variable.</para></listitem>		
+				<listitem><para>Activate system-wide injection by launching a small application at logon that is responsible for injecting Cracklock's DLL in every process.</para></listitem>
+				<listitem><para>Activate system-wide injection using AppInitDll (requires admin rights).</para></listitem>
+				<listitem><para>Install/uninstall the shell-extension for Windows explorer (requires admin rights).</para></listitem>
+				<listitem><para>Small bugs fixed in the manager and in the installation.</para></listitem>
+			</itemizedlist>
+		</listitem>
+		</itemizedlist>
+          	</listitem>
+	</varlistentry>
+
+	
+	<varlistentry>
+          		<term>3.8.13 - 8 August 2007</term>
+		<listitem>
+			<itemizedlist>
+			<listitem><para>New feature: a virtual timezone can be selected for each application running under Cracklock. For instance this feature allows you to solve the <ulink url="http://www.google.com/search?hl=en&amp;q=outlook%20timezone%20problem">"Microsoft Outlook timezone problem"</ulink>
+			by selecting the appropriate timezone.</para></listitem>
+			<listitem><para>The configuration dialog has been redesigned
+			(Note that some messages have not been translated in other languages yet).</para></listitem>	
+			<listitem><para>The manager's list contains new columns showing the date, time and timezone selected for each application.</para></listitem>
+			<listitem><para>Fixed: the loader injection method (MCL.EXE) now works again. With this method, it is not necessary to alter any executable file to activate Cracklock.</para></listitem>
+			<listitem><para>Fixed: the loader MCL.exe now parses correctly its command line parameters. It is now possible to load an application with optional command line parameters with the syntax "MCL.EXE APP.EXE APP_PARAMETERS"</para></listitem>
+			<listitem><para>Fixed: the system-wide option (when the system time is changed for real instead of being virtualized) did not work properly.</para></listitem>
+			<listitem><para>Several minor bugs have been fixed.</para></listitem>
+			<listitem><para>Setup: new option to decide whether to install a system-wide injector resident in memory (CLINJECT.exe launched at the logon or CLKERN.DLL loaded as an AppInit DLL)</para></listitem>
+			<listitem><para>Update: CLKERN.dll has been updated to take into account new win32 kernel functions that have been introduced in recent Windows updates</para></listitem>
+			<listitem><para>Internal: PEDUMP replaced by DUMPBIN in the toolchain.</para></listitem>
+			<listitem><para>A new example is now added automatically to the list of managed applications: it allows you to test Cracklock on the Windows control panel date/time applet.</para></listitem>
+			</itemizedlist>
+		</listitem>
+	</varlistentry>
+
+	<varlistentry>
+          <term>3.8.9 - 2 August 2007</term><listitem>
+	<itemizedlist>
+	<listitem><para>Portuguese language added. Thanks to Marcelo Schneider for the translation.</para></listitem>
+	<listitem><para>Internal: the Makefiles that were used to compile the sources are now replaced by a Visual Studio project. MSBuild is now used instead of GNU make.</para></listitem>
+	<listitem><para>Internal: the new "secure" versions of the string functions from the standard C library are now used. This protects Cracklock from potential buffer overflow attacks.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+	
+	<varlistentry>
+          <term>3.8.8 - 7 November 2005</term><listitem>
+	<itemizedlist>
+	<listitem><para>Fixed: the setup now proposes to not install component that need administrator rights (like explorer shell extensions)</para></listitem>
+	<listitem><para>Fixed: applications configurations are now stored at the user level instead of the machine level (this permits to use Cracklock on a public computer)</para></listitem>
+	<listitem><para>Internal fix: the make build system is used in place of the Perl script files. Visual Studio Toolkit 2003 is used to compile the C++ sources.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+		
+    <varlistentry>
+          <term>3.8.7 - 16 September 2005</term><listitem>
+	<itemizedlist>
+    <listitem><para>Fixed : imcompatibility with Windows 2000/NT (function TzSpecificLocalTimeToSystemeTime)
+    </para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+    
+	<varlistentry>
+          <term>3.8.6 - 17 July 2005</term><listitem>
+	<itemizedlist>
+    <listitem><para>Fixed: Chinese and spanish translation</para></listitem>
+    <listitem><para>Fixed: size of tab sheet title</para></listitem>
+    <listitem><para>Fixed: keyboard shortcurs in the manager</para></listitem>
+    <listitem><para>Feature: drag &amp; drop is now allowed in the manager</para></listitem>
+    <listitem><para>Fixed: selecting a language un the manager now affects the shell extension with no need to restart the Windows explorer</para></listitem>
+    <listitem><para>Fixed: controls position in the translated shell extension tab sheets</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>  
+	
+    <varlistentry>
+          <term>3.8.5 - 8 May 2005</term><listitem>
+	<itemizedlist><listitem><para>Converted entirely into UNICODE</para></listitem>
+	<listitem><para>UI bugs fixed</para></listitem>
+	<listitem><para>The "freezed date" option now works</para></listitem>
+	<listitem><para>Help converted into .CHM format</para></listitem>
+	<listitem><para>Bugs related to daytime saving management have been fixed</para></listitem>
+	<listitem><para>Languages added: Hungarian, Korean, German and Simplified Chinese</para></listitem>
+	<listitem><para>Multilingual installation</para></listitem>
+	<listitem><para>A very rare bug happening during the uninstallation has been fixed</para></listitem>
+	<listitem><para>The uninstallation now completely removes keys created by Cracklock</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+    
+	<varlistentry>
+          <term>3.8.4 - 2 August 2001</term><listitem>
+	<itemizedlist>
+	<listitem><para>Windows 2000/Xp compatibility improved</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+	  
+    <varlistentry>
+          <term>3.8.3 - 25 July 2001</term><listitem>
+	<itemizedlist><listitem><para>Arabic and Croatian translation</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+	
+	<varlistentry>
+          <term>3.8.2b - 20 January 2001</term><listitem>
+	<itemizedlist><listitem><para>less bug than before</para></listitem>
+    </itemizedlist>
+</listitem></varlistentry>
+	  
+    <varlistentry>
+          <term>3.8.1 - 17 September 1999</term><listitem>
+	<itemizedlist>
+	<listitem><para>Setup: You can now use the manager !</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+	
+
+	<varlistentry>
+          <term>3.8 - 27 August 1999 </term><listitem>
+	<itemizedlist>
+	<listitem><para> Kernel: New kernel system. Now, it is possible to act onto an application without modifying its EXE file. And you still can start your program from anywhere (DOS box, explorer, Cracklock Manager).</para></listitem>
+    <listitem><para>Setup: Cracklock Shell Extension are now installed correctly.</para></listitem>
+    <listitem><para>Shellext/Manager: Now, the selected file in the dependency list can be unselected without being grayed.</para></listitem>	
+    </itemizedlist>
+</listitem></varlistentry>
+	
+	<varlistentry>
+          <term>3.7.1 - 5 August 1999</term><listitem>
+	<itemizedlist>
+	<listitem><para>Manager: A bug in 3.7 avoided to add new application to the manager list.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+	  
+	<varlistentry>
+          <term>3.7 - 16 July 1999</term><listitem>
+	<itemizedlist>
+	<listitem><para>Some modifications in the manager.</para></listitem>
+	<listitem><para>Three languages are included (English, Spanish, French).</para></listitem>
+	<listitem><para>Correction of a bug which avoid the recognition of application referenced by a short file name.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>3.6 - 3 January 1999</term><listitem><itemizedlist>
+	<listitem><para>A bug avoiding two carcklocked programs to run together under Win95 is fixed.</para></listitem>
+	<listitem><para>The general layout of the help files has been modified.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+	
+	
+	
+	<varlistentry>
+          <term>3.5 - 25 December 1998</term><listitem>
+	<itemizedlist>
+	<listitem><para>New install ans uninstall system</para></listitem>
+	<listitem><para>Cracklock manager</para></listitem>
+	<listitem><para>Multilingual support: choice of the foreign language in the manager menu</para></listitem>
+	<listitem><para>Contextual HTML help</para></listitem>
+	<listitem><para>Kernel : improvements under NT</para></listitem>
+	<listitem><para>ShellExt : re-using of backup file when it exists instead of modifying DLL (with original date preserved after the file backup)</para></listitem>
+	<listitem><para>ShellExt : in the explorer, the contextual menu which launches an app in loader mode is shown only if necessary</para></listitem>
+	<listitem><para>Loader: when apps are executed in loader mode, Cracklock enters the debug mode only if necessary</para></listitem>
+	<listitem><para>Kernel: updates the list of DLL's each time a new DLL is loaded</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>3.0 - 2 August 1998</term><listitem>
+	<itemizedlist>
+	<listitem><para>With the new option "Loaded by Cracklock Loader", there is no more dependencies problems.
+	Cracklocks requires only one DLL to be modified when set in the "normal" mode; it 
+	does not modified any DLL when set in "loader" mode.</para></listitem>
+	<listitem><para>The reboot dialog box includes a button to cancel the operation</para></listitem>
+	<listitem><para>The reboot process is supported under Windows NT</para></listitem>
+	<listitem><para>Long File Names are preserved when files are modified after a reboot</para></listitem>
+	<listitem><para>BUG fixed: the list of files which can't be modified is no more empty.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+  
+	<varlistentry>
+          <term>2.3 - 18 june 1998</term><listitem>
+	<itemizedlist>
+	<listitem><para>A big bug has been removed. Thank to Paul Widup who discovered this bug.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>2.2 - 15 june 1998</term><listitem>
+	<itemizedlist>
+	<listitem><para>Repairs automatically VB 5 programs - When there isn't any file recognized in the dependencies list, Cracklock select, by default, the first which can be repaired.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>2.1 - 30 may 1998</term><listitem>
+	<itemizedlist>
+	<listitem><para>NEW: When a program is using files that you want to repair, Cracklock can repair them by restarting the computer.</para></listitem>
+	<listitem><para>ALL error messages are grouped into a unique dialog box.</para></listitem>
+	<listitem><para>Constant Date/Time bug fixed.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>2.0 - 9 april 1998</term><listitem>
+	<itemizedlist>
+	<listitem><para>A lot of bugs fixed</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>2.0 beta - 6 march 1997</term><listitem>
+	<itemizedlist>
+	<listitem><para>Now Cracklock repairs automatically dependent DLLs such as MSVCRT.DLL and VB40032.DLL</para></listitem>
+	<listitem><para>AM/PM bug corrected !</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>1.1 - 21 january 1997</term><listitem>
+	<itemizedlist>
+	<listitem><para>Addition to the documentation (how to repair VB &amp; VC programs).</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>1.0 - 5 january 1997</term><listitem>
+	<itemizedlist>
+	<listitem><para>Modification of the documentation.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term>1.0 - 2 December 1997</term><listitem>
+	<itemizedlist>
+	<listitem><para>Now you can remove CrackLock from Windows 95 and NT. Previously, it was impossible to uninstall Cracklock under Windows 95.</para></listitem>
+	</itemizedlist>
+</listitem></varlistentry>
+
+	<varlistentry>
+          <term> 1.0 beta - 20 November 1997</term>
+          <listitem>
+	        <itemizedlist>
+	        <listitem><para>Documentation is fixed and FILE_ID.DIZ is added.</para></listitem>
+	        </itemizedlist>
+	        </listitem>
+  </varlistentry>
+
+	<varlistentry>
+          <term>1.0 alpha - 1 November 1997</term>
+          <listitem>
+            <para>First release of Cracklock.</para>
+          </listitem>
+	</varlistentry>
+	
+	</variablelist>
+</section>

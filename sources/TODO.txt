@@ -1,0 +1,11 @@
+TODO
+====
+
+- Manager: Add a column 'Image Type' in the manager to indicate if an application is 32-bit or 64-bit
+- CLSHEX: Make the KERNEL32.dll import module patching work for 64bit PE files,
+- Loader: Make the debugger injection work on AMD64. The 64bit version of the loader should be able to load both 32bit and 64bits apps (injecting CLKERN.DLL or CLKERN64.dll appropriately)
+- CLKERN: Make the IAT patching at runtime work with 64bit modules (IAT addresses are bigger for 64bit modules)
+- Installation: Ship 64bits version with two version of the kernel: CLKERN.DLL and CLKERN64.DLL, and the two flavours of each example (vcdate, vbdate)
+
+
+- add new feature to apply time limit for only a given period of time at the startup of the app.

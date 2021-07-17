@@ -1,0 +1,12 @@
+[Software\MicroBest\Cracklock]
+=string:
+[Software\MicroBest\Cracklock\3.0]
+=string:
+[Software\MicroBest\Cracklock\3.0\Apps]
+=string:
+[Software\MicroBest\Cracklock\3.0\Dlls]
+=string:
+[Software\MicroBest\Cracklock\3.0\Settings]
+Language=string:CLRESUS.dll
+ListView=dword:1
+=string:

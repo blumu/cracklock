@@ -1,0 +1,195 @@
+# Créé par William BLUM
+# Créé le 24 dec 1998
+# Modifié le 8 feb 1999
+
+Comment gérer le packaging de Cracklock ?
+=========================================
+
+C'est très simple !
+
+I COMPILATION ET LINKAGE
+========================
+
+Compilez et linkez en mode 'release' et dans l'ordre les projets suivants sous Visual C++ :
+	1 Resources
+	2 ShellExt
+	3 Manager
+	4 Kernel
+	5 Loader
+
+Le projet 'Test' n'a pas besoin d'être compilé, il est utilisé pour tester le Kernel.
+
+
+II TRADUCTION DE CRACKLOCK
+==========================
+
+Présentation des outils
+-----------------------
+
+Une fois les fichiers de Cracklock compilés, il faut le traduire. En fait, il n'y a que le fichier CLRESus.DLL à traduire. Pour cela vous disposez des outils situés dans le répertoire 'Traduction'.
+
+Les trois commandes qui vous permettes de traduire Cracklock sont :
+	
+	1 trBeg.bat [language]	
+	2 Rlquiked.exe
+	3 trEnd.bat [language]
+
+	où language vaut :
+		FR pour French		
+		SP pour Spanish
+		GE pour German
+		
+REMARQUE : ces programmes nécessites que vous ayez installé le programme rlman.Exe téléchargeable chez Microsoft.
+
+
+Comment traduire cracklock pour une langue pré-configurée (c.a.d. français, espangol, allemand) ?
+-------------------------------------------------------------------------------------------------
+
+Supposons que vous-vouliez le traduire en allemand. 
+
+1) Tout d'abord, on initialise la traduction en lançant 'trBeg' :
+	
+	trBeg dll|tok ge		('ge' pour german)
+		
+2a) Si l'on a choisit l'option 'DLL'
+
+	* Soit on utilise Rlquiked.exe pour traduire le fichier GERMAN.DLL
+
+	- 'File',
+	- 'Open',
+	- GERMAN.DLL,
+	- dans les deux combos, il faut sélectionner la langue GERMAN (ATTENTION !
+	obligatoirement la même langue dans les deux combos !),
+	- mode 'Replace',
+	- 'ok',
+	- pour chaque ligne (ne comportant pas de chiffres comme "91   40  195   91 : TDB")
+	traduire la chaîne en double-cliquant dessus,
+	- enregistrer les modifications et sortir.
+
+	* Soit on utilise Ms Developer Studio (Visual C++) pour traduire GERMAN.DLL
+
+	- On ouvre le fichier GERMAN.DLL avec VisualC++ (en demandant d'ouvrir en tant
+	que ressource),
+	- on traduit les chaînes de la table de chaînes et éventuellement on modifie la
+	disposition des boîtes de dialogues.
+
+
+2b) Si l'on a choisit l'option 'TOK'
+
+	- on ouvre le fichier GERMAN.TOK avec notepad et on traduit toutes les chaînes qui
+	ne contiennent pas des chiffres comme "91   40  195   91 : TDB",
+	- on enregistre.
+
+3) on termine la traduction en faisant
+
+	trEnd ge
+
+ceci génére le fichier CLRESge.dll et le place dans le répertoire Release\Languages\.
+
+
+Si le fichier CLRESUS.DLL est recompilé à partir de Visual C++, vous pouvez le retraduire sans perdre tout ce que vous avez fait jusqu'alors en suivant la démarche que je viens d'expliquer.
+
+
+Comment ajouter des nouvelles langues ?
+---------------------------------------
+
+Il suffit de modifier le programme trSetLang.bat.
+
+Par exemple pour ajouter le russe, on fait les modifs suivantes dans le fichier trSetLang.bat
+
+...
+if %1==sp goto sp
+if %1==ru goto ru			# ligne ajouée
+if %1==PARAMHELP goto PARAMHELP
+goto err
+
+:ru					# ligne ajouée
+set LANG=RUSSIAN			# ligne ajouée, nom de langue en anglais
+set LANG_ID=25				# ligne ajouée, numéro de la langue (en décimal)
+set SUBLANG_ID=1			# ligne ajouée, numéro de la sous-langue (en décimal)
+goto fin
+
+Maintenant pour traduire la DLL en RUSSE, il suffit de procéder comme c'est expliqué plus haut mais en donnant 'ru' comme paramètre.
+
+REMARQUE : la liste des numéros de langues et de sous-langues se trouve dans les diverses DOCS de microsoft (MSDN), et dans l'aide du programme RLMAN.EXE téléchargeable chez microsoft (trouvable à partir de www.shareware.com).
+
+
+III GENÉRATION DU PROGRAMME D'INSTALLATION
+==========================================
+
+Récapitulatif du contenu des répertoires :
+------------------------------------------
+
+Ceci est un récapitulatif de ce que vous devez trouver dans le répertoire Cracklock\ afin de générer le package d'installation pour le distribuer sur Internet.
+
+Cracklock\
+	Release\
+		Bin\
+			CLKERN.DLL	# copié ici par Visual C++
+			CLSHEX.DLL	# copié ici par Visual C++
+			CLMNGR.EXE	# copié ici par Visual C++
+			MCL.EXE		# copié ici par Visual C++
+
+		Languages\
+			CLRESus.dll	# copié ici par Visual C++
+			CLRESfr.dll	# copié ici par trEnd.bat à la fin de la traduction
+			CLRESsp.dll	# copié ici par trEnd.bat à la fin de la traduction
+			CLRESge.dll	# copié ici par trEnd.bat à la fin de la traduction
+
+	
+	Examples\
+		VCDate.exe	# copié ici manuellement (example de Charles Petzold)
+		VBDate.exe	# copié ici manuellement (example de moi)
+
+	Help\
+
+		Commun\		# créé manuellement(images communes à toutes les langues)
+			...
+
+		CLRESFR.DLL\		# Aide originale créé manuellement 
+			html\...		#   pages html
+			images\...		#   images
+
+		CLRESUS.DLL\		# traduction anglaise de l'aide
+			html\...		#   pages html
+			images\...		#   images
+
+		CLRESSP.DLL\		# traduction espangole de l'aide
+			html\...		#   pages html
+			images\...		#   images
+
+		CLRESGE.DLL\		# traduction allemande de l'aide
+			html\...		#   pages html
+			images\...		#   images
+
+	Documentation\
+
+		CRACKLOCK.TXT		# documentation succinte créé manuellement
+
+	Installation\			# outils pour la création du package de Cracklock
+
+		packcl.bat		# Batch à lancer sans paramètre, s'occupant d'appeler
+					# le programme perl.
+
+		sip.pl			# Programme Perl lui-même
+
+		cklock.sip		# Script pour le programme Perl (adaptable pour d'autre
+					# produits que Cracklock)
+
+Génération du package
+---------------------
+
+Pour générer le programme d'installation, il suffit de lancer le programme packcl.bat dans le répertoire 'Installation'
+
+ATTENTION, le programme packcl.bat nécessite que le programme 'IExpress 3' soit installé sur votre disque-dur (fourni sur un des CDs de Visual Studio 6.0, ne pas confondre avec InstallShield Express). Le chemin d'accès à ce programme doit être spécifié sous la clée IEXPRESS du fichier "cklock.sip". Il en va de même pour le programme PKZIP. Vous devez aussi avoir une version du language PERL installé sur votre ordianteur (disponible gratuitement tout partout sur Internet ex: Active Perl, Ms Windows NT Resource Kit, ...). Le chemin d'accès au langage PERL doit être ajouté dans le PATH.
+
+Une fois l'exécution du batch terminé, vous trouverez dans le répertoire Installation\ un fichier nommé CKLKxx.ZIP lui même contenant deux autres fichiers : FILE_ID.DIZ et CKLKxx.EXE qui sont respectivement une courte description de Cracklock et le programme d'installation de
+Cracklock.
+
+
+
+Voilà c'est tout !
+Bonne chance et merci à celui ou ceux qui prendront le temps de mettre à jour Cracklock et de le traduire !
+
+NOTE A CELUI QUI LIS CE MESSAGE : est-ce que tu peux traduire ce texte en anglais ?
+S'il te plait ? Merci.

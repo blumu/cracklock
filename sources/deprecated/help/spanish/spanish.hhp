@@ -1,0 +1,32 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\Cracklock-sp.chm
+Contents file=spanish.hhc
+Default topic=bienvenidos.htm
+Display compile progress=Yes
+Language=0x40a Espagnol (traditionnel)
+Title=Cracklock - Ayuda
+
+
+[FILES]
+special.htm
+AGRADEC.HTM
+aviso1x2x.htm
+index.html
+bienvenidos.htm
+comoconfig.htm
+contactar.htm
+contenidos.htm
+correprog.htm
+desinstalar.htm
+ejemplos.htm
+HISTORIA.HTM
+instalar.htm
+introduccion.htm
+limitaciones.htm
+manejador.htm
+noticia.htm
+obligaciones.htm
+
+[INFOTYPES]
+

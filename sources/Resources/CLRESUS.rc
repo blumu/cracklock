@@ -1,0 +1,544 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resources.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "version.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TABOPTIONS DIALOGEX 0, 0, 236, 189
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    LTEXT           "Pick up a date and time for this application:",IDC_INFO,6,4,204,12
+    CONTROL         "Virtual &date",IDC_CHKDATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,16,93,9
+    COMBOBOX        IDC_CMBMONTH,14,29,64,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDYEAR,81,29,31,13,ES_CENTER | ES_NUMBER
+    CONTROL         "",IDC_SPINYEAR,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,112,29,11,12
+    CONTROL         "",IDC_CALENDAR,"CCalendar",WS_BORDER | WS_TABSTOP,14,45,110,76
+    CONTROL         "Virtual &time",IDC_CHKTIME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,16,86,9
+    CONTROL         "",IDC_CLOCK,"CClock",0x0,132,29,93,65
+    EDITTEXT        IDC_EDTM0,150,96,8,12,ES_RIGHT | ES_MULTILINE | ES_NUMBER | NOT WS_BORDER | WS_GROUP
+    CTEXT           "",IDC_SEPTIME0,158,96,8,8,SS_NOPREFIX
+    EDITTEXT        IDC_EDTM1,167,96,8,12,ES_RIGHT | ES_MULTILINE | ES_NUMBER | NOT WS_BORDER
+    CTEXT           "",IDC_SEPTIME1,176,96,8,8,SS_NOPREFIX
+    EDITTEXT        IDC_EDTM2,184,96,8,12,ES_RIGHT | ES_MULTILINE | ES_NUMBER | NOT WS_BORDER
+    LISTBOX         IDC_LSTAMPM,192,96,13,12,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_TABSTOP
+    CONTROL         "",IDC_SPINAMPM,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,205,96,11,12
+    PUSHBUTTON      "Load &preset date/time...",IDC_BTLOADPRESETDT,132,110,88,16,BS_FLAT
+    CONTROL         "Virtual time &zone",IDC_CHKTZ,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,128,211,9
+    COMBOBOX        IDC_CMBTIMEZONE,14,139,204,114,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&System-wide (affects all running applications)",IDC_CHKSYS,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,6,155,211,9
+    CONTROL         "&Freeze date and time ",IDC_CHKCST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,169,211,9
+END
+
+IDD_TABHELP DIALOGEX 0, 0, 223, 168
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "&Help index...",IDC_BTHELP,73,145,77,16
+    GROUPBOX        "Legend for the list of dependencies",IDC_STATIC,34,23,154,99
+    ICON            239,IDC_LSTAPPEXE,44,36,18,16,SS_REALSIZEIMAGE
+    LTEXT           "Application executable file",IDC_STATIC,61,37,122,9
+    ICON            239,IDC_LSTFILE,44,50,18,16,SS_REALSIZEIMAGE
+    LTEXT           "DLL dependency file",IDC_STATIC,61,50,122,9
+    ICON            237,IDC_LSTWINSYSFILE,44,64,18,16,SS_REALSIZEIMAGE
+    LTEXT           "System DLL (cannot be selected)",IDC_STATIC,61,65,123,9
+    ICON            238,IDC_LSTGRAYCHK,44,78,18,16,SS_REALSIZEIMAGE
+    LTEXT           "Selected for another application",IDC_STATIC,61,79,122,9
+    ICON            232,IDC_LSTUNCHK,44,92,18,16,SS_REALSIZEIMAGE
+    LTEXT           "Unselected",IDC_STATIC,61,93,122,9
+    ICON            231,IDC_LSTCHK,44,106,18,16,SS_REALSIZEIMAGE
+    LTEXT           "Currently selected for this application",IDC_STATIC,61,106,121,9
+END
+
+IDD_TABGENERAL DIALOGEX 0, 0, 211, 184
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    ICON            "",IDC_ICO,3,3,20,20
+    LTEXT           "Cracklock",IDC_TITLE,48,6,160,17,SS_CENTERIMAGE
+    CONTROL         "&Cure this program with Cracklock",IDC_CHKACTIVATE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,49,191,8
+    LTEXT           "Select this option if the program stops working properly several days after its installation.",IDC_STATIC,27,60,179,22
+    CONTROL         "&Show advanced options",IDC_CHKADVANCED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,86,168,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,14,115,184,1
+    LTEXT           "Developed by William Blum.",IDC_MB_LINK2,62,134,88,8
+    CONTROL         "Check the website at <A HREF=""http://william.famille-blum.org/"">http://william.famille-blum.org</A>",IDC_CUSTOM1,
+                    "SysLink",WS_TABSTOP,23,120,166,12
+    LTEXT           "Version x.y - Build z",IDC_VERSIONINFO,49,19,160,17,SS_CENTERIMAGE
+END
+
+IDD_TABDEPEND DIALOGEX 0, 0, 224, 186
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_GRPRUNTIME,6,6,212,46
+    GROUPBOX        "",IDC_GRPSTATIC,6,56,212,122
+    CONTROL         "&Run-time injection. (no executable file is altered)",IDC_RADRUNTIMEINJEC,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,9,6,170,10
+    CONTROL         "&Static injection. Choose which file to modify:",IDC_RADSTATICINJEC,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,9,56,156,8
+    CONTROL         "",IDC_LSTDEPEND,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,9,69,204,105
+    CONTROL         "<a ID=""makeshortcut"">Click here to create a shortcut on the desktop</a>",IDC_LNKCREATESHORTCUT,
+                    "SysLink",WS_TABSTOP,66,38,151,8
+    LTEXT           "Since system-wide injection is deactivated, you must start this program from the manager or from a special shortcut.",IDC_RUNTIMEINFO,14,17,199,23,0,WS_EX_TRANSPARENT
+END
+
+IDD_RETRY DIALOGEX 0, 0, 263, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Some files cannot be modified!"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "The following files cannot be modified, they may have read-only attribute or some program may be currently accessing them.",IDC_TITLE,7,3,249,22
+    LTEXT           "You can either exit all running programs and click ""Retry"", choose ""Restart later"" to modify these files next time Windows reboots, click ""Restart now"" to force an immediate Windows reboot, or click ""Cancel"" to return to the configuration dialog box.",IDC_LEGEND,7,100,249,35
+    DEFPUSHBUTTON   "R&etry",IDC_BTRETRY,7,137,50,14
+    PUSHBUTTON      "Restart &later",IDC_BTRESTARTLATER,73,137,50,14
+    PUSHBUTTON      "Restart &now",IDC_BTRESTARTNOW,139,137,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,205,137,50,14
+END
+
+IDD_TABMOREOPTIONS DIALOGEX 0, 0, 227, 194
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Stand-alone mode",IDC_STATIC,6,3,213,107
+    CONTROL         "&Normal",IDC_RADDEFAULT,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,45,38,10
+    CONTROL         "Store settings &locally",IDC_RADLOCALSETTINGS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,67,78,10
+    CONTROL         "Stand-&alone",IDC_RADCOMPLETELYSTANDALONE,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,15,87,55,10
+    LTEXT           "Store the application settings in the main storage place.",IDC_STATIC,100,42,109,16
+    LTEXT           "Store the application settings in the application's directory.",IDC_STATIC,100,64,109,21
+    LTEXT           "The application will run even after copying it to another computer.",IDC_STATIC,100,86,109,17
+    GROUPBOX        "Command-line:",IDC_STATIC,6,112,213,67
+    LTEXT           "&Program path:",IDC_STATIC,16,124,47,8
+    EDITTEXT        IDC_EDTCMDLINE,15,133,195,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Parame&ters:",IDC_STATIC,16,150,40,8
+    EDITTEXT        IDC_EDTCMDPARAM,15,160,195,14,ES_AUTOHSCROLL
+    LTEXT           "It is advised to use the ""shared"" installation mode in the general settings when selecting one of the first two following options:",IDC_STATIC,16,16,195,24
+END
+
+IDD_CONFIG DIALOGEX 0, 0, 210, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,38,82,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,96,82,50,14
+    PUSHBUTTON      "&Apply",ID_BTAPPLY,154,82,50,14,WS_DISABLED
+END
+
+
+IDD_ABOUT DIALOGEX 0, 0, 189, 174
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Cracklock"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LINE_BOTTOM,"Static",SS_ETCHEDHORZ,7,158,175,1
+    CONTROL         "<A HREF=""http://william.famille-blum.org/"">http://william.famille-blum.org</A>",IDC_LINK,
+                    "SysLink",WS_TABSTOP | 0x200,60,34,122,10
+    CTEXT           "Build date:",IDC_BUILDINFO,7,161,175,9,SS_CENTERIMAGE
+    ICON            "",IDC_ICO,7,5,20,20
+    LTEXT           "Cracklock",IDC_TITLE,60,6,122,17,SS_CENTERIMAGE
+    LTEXT           "Version x.y - Build z",IDC_VERSIONINFO,60,23,122,8,SS_CENTERIMAGE
+    CONTROL         "",IDC_LINE_TOP,"Static",SS_ETCHEDHORZ,7,47,175,1
+END
+
+IDD_PROPEXT DIALOGEX 0, 0, 235, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TABOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 229
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_TABHELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_TABGENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 208
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_TABDEPEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 219
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_RETRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_TABMOREOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 219
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 167
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_PROGRAM MENU 
+BEGIN
+    POPUP "&Program"
+    BEGIN
+        MENUITEM "&Run program...",             ID_PROGRAM_RUN, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete program",             ID_PROGRAM_DELETE, GRAYED
+        MENUITEM "&Configure program...",       ID_PROGRAM_CONFIG, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_PROGRAM_CLOSE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "L&arge icons",                ID_VIEW_LARGEICONS
+        MENUITEM "S&mall icons",                ID_VIEW_SMALLICONS
+        MENUITEM "&List",                       ID_VIEW_LISTICONS
+        MENUITEM "&Details",                    ID_VIEW_DETAILSICONS
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh",                    ID_VIEW_REFRESH
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "&Cracklock settings...",      ID_OPTION_SETTING
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Documentation",              ID_HELP_DOCUMENTATION
+        MENUITEM "&Website",                    ID_HELP_WEBSITE
+        MENUITEM SEPARATOR
+        MENUITEM "&About Cracklock",            ID_HELP_ABOUT
+    END
+END
+
+IDM_POPUP MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Run...",                     ID_PROGRAM_RUN, GRAYED
+        MENUITEM "Delete",                      ID_PROGRAM_DELETE, GRAYED
+        MENUITEM "&Configure...",               ID_PROGRAM_CONFIG, GRAYED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TABOPTIONS DLGINIT
+BEGIN
+    IDC_CMBTIMEZONE, 0x403, 14, 0
+0x6552, 0x6c61, 0x7420, 0x6d69, 0x7a65, 0x6e6f, 0x0065, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ERRFILENOTFOUND     "File not found !"
+    IDS_LDRNAME             "None"
+    IDS_LDRDESC             "select this if you don't want any executable file to be altered"
+    IDS_ERR_NOTEXEFILE      "The file you have selected is not a valid Windows 32 bits executable file !"
+    IDS_ERR1                "Can't run the specified program !"
+    IDS_EMAILLINK           "mailto:NOMAIL@ANYMORE.SORRY?subject=[Cracklock %s %s]"
+    IDS_LANGMENU            "&Language"
+    IDS_PROGRAMFILTER       "Programs (*.EXE)|*.EXE|All files (*.*)|*.*|"
+    IDS_COLUMNNAME          "Filename"
+    IDS_COLUMNDIR           "Directory"
+    IDS_COLUMNDATETIME      "Date/time"
+    IDS_MANAGERTITLE        "Cracklock Manager"
+    IDS_HLPMANAGER          "index.html#configuration"
+    IDS_HLPCONFIG           "index.html#configuration"
+    IDS_CREDITS             "DEVELOPMENT\n\nWilliam Blum\n\n\nDOCUMENTATION\n\nDominique Blum\n(English)\n\nErnesto Pérez Estévez\n(Spanish)\n\n\nTRANSLATION\n\nWilliam Blum\n(English)\n\nErnesto Pérez Estévez\n(Spanish)\n\nSvetislav Orlovic\n(Croatian)\n\nTarik Kallida\n(Arabic)\n\nSu-Hee Choi\n(Korean)\n\nQianhan Lin\n(Simplified Chinese)\n\nMarcelo Schneider\n(Portuguese)\n\n"
+    IDS_DELREGSETTINGS      "Do you also want to remove the settings for applications that are configured with Cracklock?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LANGUAGE            "English"
+    IDS_TABMOREOPTIONS      "Advanced"
+    IDS_RUNTIMEINJECTION    "Run-time injection"
+    IDS_ADDPROGRAM          "Add Program"
+    IDS_CMDRESTORELFN       "rundll32 ShellExtension.dll,RestoreLFN"
+    IDS_TITRESTORELFN       "Cracklock LFN Restoration"
+    IDS_TABGENERAL          "General"
+    IDS_TABOPTIONS          "Date and time"
+    IDS_TABDEPEND           "Injection mode"
+    IDS_TABHELP             "Help"
+    IDS_ADVANCED            "&Advanced"
+    IDS_MBLINK              "http://william.famille-blum.org/"
+    IDS_CHMFILE             "cracklock-en.chm"
+    IDS_CTXMENU             "&Start with Cracklock"
+    IDS_CTXMENUHELP         "Click here if you want to run this program under the control of Cracklock"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REALDATE            "Real date"
+    IDS_DLGFONT             "MS Shell Dlg,10"
+    IDS_COLUMNTIMEZONE      "Timezone"
+    IDS_SYSTEMTIMEZONE      "System timezone"
+    IDS_SYSTEMWIDEACTIVATED "Since system-wide injection is activated, injection should be automatic when you run this program."
+    IDS_SYSTEMWIDEDEACTIVATED 
+                            "Since system-wide injection is deactivated, you will have to run this program from the manager or by using a special shortcut."
+    IDS_SHORTCUTSUFFIX      " (with Cracklock)"
+    IDS_PROGRAMNAME         "Program name"
+    IDS_PATH                "Path"
+    IDS_STATICINJECTION     "Static injection"
+    IDS_DEFAULT             "Default"
+    IDS_FLASHDRIVE          "Flashdrive"
+    IDS_CUSTOM              "Custom..."
+    IDS_SETTINGSPERMISSIONERROR 
+                            "Cannot move settings to the desired storage location. Please check the file permissions for the destination folder!"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resources.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""version.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""clresus.rc2""\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETTINGS DIALOGEX 0, 0, 281, 297
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Cracklock installation type:",IDC_STATIC,7,7,262,64
+    CONTROL         "&Stand-alone",IDC_RADSTANDALONE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,19,21,55,10
+    CONTROL         "S&hared",IDC_RADSHARED,"Button",BS_AUTORADIOBUTTON,19,46,46,10
+    LTEXT           "In this mode the injection DLL will be copied to each application's folder.",IDC_STATIC,29,33,229,8
+    LTEXT           "This will add Cracklock's directory to the PATH environment variable.",IDC_STATIC,28,57,219,8
+    LTEXT           "Default injection &mode:",IDC_STATIC,11,78,75,8
+    COMBOBOX        IDC_CMBINJECTIONMODE,94,77,87,35,CBS_DROPDOWNLIST | CBS_SORT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Configuration storage:",IDC_STATIC,7,94,262,68
+    CONTROL         "Windows &registry (current user)",IDC_RAD_WINREG,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,19,107,160,10
+    CONTROL         "INI file in Crac&klock's directory",IDC_RAD_CLDIR,
+                    "Button",BS_AUTORADIOBUTTON,19,120,164,8
+    CONTROL         "INI file in the current user's App&Data directory",IDC_RAD_APPDATADIR,
+                    "Button",BS_AUTORADIOBUTTON,19,132,161,9
+    CONTROL         "By default save s&ettings in each application's directory",IDC_CHKFORWARDSETTINGSTOLOCAL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,147,188,10
+    GROUPBOX        "Run-time injection method:",IDC_GRPADMIN,7,164,262,88
+    LTEXT           "Choose one of these options if some programs are configured with run-time injection and if you don't want to start them from the manager or from a special shortcut:",IDC_STATIC,15,175,247,25
+    CONTROL         "AppInitDll system-&wide injection (requires admin. privileges)",IDC_CHKSWI_APPINIT,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,17,205,247,13
+    CONTROL         "Resident injector loaded &at logon for all users (requires admin. privileges)",IDC_CHKSWI_LMLOGON,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,17,219,247,13
+    CONTROL         "Resident injector loaded at &logon for the current user",IDC_CHKSWI_CULOGON,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,17,233,247,13
+    CONTROL         "Explorer shell e&xtension (requires admin. priv.)",IDC_CHKSHELLEXT,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,12,257,164,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,271,267,1
+    LTEXT           "Load &preset configuration:",IDC_STATIC,10,278,86,11,NOT WS_VISIBLE
+    COMBOBOX        IDC_CMBPRESET,99,277,54,37,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,167,276,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,221,276,50,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 291
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SETTINGS DLGINIT
+BEGIN
+    IDC_CMBPRESET, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_CMBPRESET, 0x403, 11, 0
+0x6c46, 0x7361, 0x6468, 0x6972, 0x6576, "\000" 
+    IDC_CMBPRESET, 0x403, 10, 0
+0x7543, 0x7473, 0x6d6f, 0x2e2e, 0x002e, 
+    0
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_LOADPRESET MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "c&urrent system date/time",   ID_CURSYS
+        MENUITEM "&file creation stamp",        ID_FILECREATIONDATE
+        MENUITEM "file &modification stamp",    ID_FILEMODIFICATION
+    END
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "clresus.rc2"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,63 @@
+
+Where I can download Cracklock ?
+
+http://www.cracklock.net/
+
+
+
+Where to send questions about Cracklock ?
+
+william@cracklock.net, but send them only after reading the documentation.
+Use this address only for questions about Cracklock.
+
+
+
+-------------------
+
+>en fait ce petit courrier c'est pour demander un renseignement:
+>tout marchait très bien avec Cracklock jusqu'à ce que j'essaie de traiter un programme qui s'appelle:  ThumbsPlus v.4.10
+>il me restait 12 jours d'utilisation quand j'y ai essayé Cracklock. j'ai suivi la procédure habituelle, et là, surprise, quand j'ai relancé le prog, il m'a envoyé:
+>"your trial version has expired" ou un truc dans le genre, avec suppression de beaucoup de fonctionnalités. bref, direction poubelle.
+>alors...
+>1) s'agit-il d'une protection spéciale ?
+>2) ai-je fait une c***rie quelque part ?
+
+
+Il se peut qu'il y ait une protection spéciale dans ThumbsPlus. Mais malheureusement, je ne connais pas ce logiciel.
+
+Je ne sais pas si l'erreur vient d'une mauvaise configuration, mais il arrive parfois que les dates saisies par les utilisateurs de Cracklock ne soit pas cohérentes (par exemple lorsque la date précède la date d'installation). Faites bien attention à cela car beaucoup de logiciels prennent en compte ce type de situations.
+
+---------------
+
+
+Does Cracklock works with 16 bits programs ?
+
+No. Cracklock will never be able to do that.
+
+
+Is Cracklock able to repair the "30-uses" bug ?
+
+No
+
+
+Is Cracklock able to remove nag screen ?
+
+No
+
+
+Why Cracklock doesn't work with my Plugins, Dlls, Ocxs or with Norton Antivirus, ... ?
+
+In order to prevent affecting alls applications which are using a DLL, the date configured in Cracklock is identified with the name of the application instead of the DLL one.
+
+
+
+
+
+
+-------------------------------------------
+
+
+J'ai bien téléchargé KitchenDraw, mais malheureusement Cracklock ne peut rien faire pour lui : ce logiciel utilise une limitation qui se base sur la durée d'utilisation du logiciel et non pas sur le nombre de jours écoulés depuis son installation. Cracklock ne permet que de falsifier la date du jour aux yeux du logiciel alors qu'ici KitchenDraw maintient un compteur interne où s'accumule la durée pendant laquelle on l'a utilisé.
+
+
+------------------------------------

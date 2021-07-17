@@ -1,0 +1,13 @@
+[Info]
+Generator=SIP pour Ghost Installer
+Homepage=http://www.cracklock.net/
+GIN Version=Ghost Installer v1.62
+GIN Homepage=http://aghost.da.ru
+
+[Config]
+CompressionLevel=7
+ImagePath=cklk
+ExeName=cklk383
+Password=
+
+

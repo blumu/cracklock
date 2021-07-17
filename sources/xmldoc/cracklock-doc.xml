@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+<!-- [ <!ENTITY % xinclude SYSTEM "xinclude.mod">
+%xinclude;
+]-->
+<section>
+  <title>Cracklock documentation</title>
+  <section>
+    <title>Introduction</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="title.png"/>
+      </imageobject>
+    </mediaobject>
+    <para>Freeware, No Adware, No Spyware.</para>
+    <para>The current version support all 32 bits versions of Windows from NT to Vista (NT/2K/XP/Vista).
+    For legacy version of Windows (95, 98 or ME), please download version 3.8.3 from my <ulink url="http://william.famille-blum.org/">website</ulink>.
+    </para>
+    <para>For the latest version, check the website at <ulink url="http://william.famille-blum.org/">http://william.famille-blum.org</ulink>.
+    </para>
+    <para>You probably know the most polymorphic and sadistic virus of this ending century, the
+      so-called &quot;30th day virus&quot;. It attacks the best sharewares as well as the worst
+      ones, introducing as soon as you install them a bug that prevents them from running beyond a
+      random delay, often 30 days. Cracklock has the leadership in the fighting challenge against
+      this virus that even McAfee, Norton, Sophos, Thunderbyte and F-Proot seem unable to deal with.</para>
+    <para>Cracklock is also a tool that developpers may use to check Y2K-like compatibility for
+      their products without having to change the system time, thus avoiding side-effects.</para>
+  <section>
+    <title>What&apos;s new ?</title>
+    <para>
+      It is now possible to run Cracklock from a usb flashdisk.
+      In this mode, the settings are saved on disk in a Cracklock.settings file.
+      By default this file is stored along with cracklock binaries.
+      An option let you tell cracklock to save the settings in the current user's Appdata folder or in the Windows registry.
+    </para>
+
+    <para>
+      Another option can be set to store the per-application
+      settings in each application's directory. If you run an executable file called "App.exe" that is (statically or run-time) injected by Cracklock
+       and if there exists an associated configuration file called "App.exe.cracklock"
+      next to it in the application directory then 
+      Cracklock will load the settings from that file instead of the general cracklock setting storage (the registry or the main setting file).
+    </para>
+    <para>
+    <link  linkend="changelog">Click here to see the full changelog.</link>
+    </para>
+  </section>
+  <section>
+    <title>Features</title>
+    <itemizedlist>
+      <listitem>
+        <para>A new installation program: simplifies the install process of Cracklock.</para>
+      </listitem>
+      <listitem>
+        <para>The Manager: an interface which allows you to set up each Cracklock-controlled
+          software an easier and faster way.</para>
+      </listitem>
+      <listitem>
+        <para>Multilingual: Cracklock has been translated to many languages.</para>
+      </listitem>
+      <listitem>
+        <para>Contextual help: you can obtain help from anywhere, at any time !</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Installation</title>
+    <para>Just run the setup executable file and follow the instructions on the screen.</para>
+    <para><emphasis role="bold">Note to users of older versions of Cracklock:</emphasis> If a
+      previous version of Cracklock is installed on your computer, it is better to uninstall it
+      before installing the new version.</para>
+  </section>
+  <section>
+    <title>Uninstallation</title>
+    <para>Choose &quot;Cracklock&quot; from the list of applications in the <emphasis role="bold"
+        >Add/Remove programs</emphasis> applet of the Windows control panel.</para>
+  </section>
+  </section>
+
+  <section>
+    <title>Usage</title>
+    <section>
+      <title>How does it work?</title>
+      <para>Cracklock controls a list of programs you set up. When a program from this list needs
+        time or date, Cracklock operates, bluffing the calling program and returning the
+        pre-determined date or time you have set. So, the program &quot;thinks&quot; to be at the
+        date/time it accepts for running.</para>
+      <variablelist>
+        <varlistentry>
+          <term>For the end user</term>
+          <listitem>
+            <para>Cracklock protects you from the 30th day bug, a defect that is becoming very
+              frequent in nowadays software. A program affected by this bug will fail to run when a
+              certain period of time has passed after its installation.</para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>For the developer: a safe method for Y2K testing</term>
+          <listitem>
+            <para>With the help of Cracklock, developers can readily test or check the &quot;Year
+              2000 compatibility&quot; (Y2K) of their software.</para>
+            <para>Suppose that you want to check the program you are developing for Y2K
+              compatibility. To perform the test you decide to change the global system date/time to
+              31th december 1999 and then launch your program in order to debug it. The drawback of
+              this method is that it affects all the programs currently running on the machine. One
+              consequence is that the date stamp of the files created or modified by any software
+              running on Windows will be set to 31th december 1999.</para>
+            <para>Some other software may even stop working, as if they were &quot;lost in
+              time&quot;. That would be the case for all these poorly developed softwares that are
+              affected by the notorious &quot;30th day bug&quot;. If you run such software while you
+              are testing your program against Y2K compliance, then you will run into trouble: the
+              bugged sofware will be confused about the date and will stop working.</para>
+            <para>Cracklock overcomes all these problems by allowing you to specify the date on an
+              application basis.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+      <section id="configuration">
+        <title>Setting up an application for Cracklock</title>
+        <para>Start the manager (shortcut <emphasis role="bold">Cracklock Manager</emphasis> in
+          start menu):</para>
+        <figure>
+          <title>The manager</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="fen_gestio.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+        <para>The Manager lets you add and configure application to be controlled by Cracklock. It
+          lets you do the following 3 basic functions: adding a new application, configure the date
+          and time parameters for an application, and execute the program (though it is not required
+          to launch your applications from the manager).</para>
+        <section>
+          <title>Adding applications</title>
+          <para>To add an application to the list of applications controled by Cracklock, click
+            twice on the <emphasis role="bold">Add program</emphasis> and then select the executable
+            file of your application. A dialog box will show up to let you configure the parameters
+            for this application.</para>
+          <para>Note : The application must be a valid 32bits Windows application compatible with
+            Windows&#160;95/98/NT/XP.</para>
+        </section>
+        <section>
+          <title>Configurating a program for use with Cracklock</title>
+          <para>Select the program that you want to configure in the manager list. Click on the
+            &quot;Program&quot; menu then on &quot;Settings...&quot;: </para>
+          <figure>
+            <title>Program menu</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="menu_prog.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para>This brings you the configuration dialog box:</para>
+          <figure>
+            <title>Configuration window</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="fen_options.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para>Choose a date and time using the calendar and clock controls.</para>
+          <para>Click on &quot;Load preset date/time&quot; in order to load a predefine date/time
+            among the following: the current system date and time, the file creation date/time, the
+            file&apos;s last modification date/time. </para>
+          <para>You can restrict Cracklock to only affect the time, the date or both by selection
+            the approriate raddio button. For instance if you choose to alter the time only then the
+            program will run with the system date but with a fake time. If you choose &quot;date and
+            time&quot; then both will be faked by Cracklock.</para>
+          <para>
+          </para>
+        </section>
+        <section>
+          <title>Configuring your applications from the Explorer</title>
+          <para> You can configure application for Cracklock directly from the Windows Explorer
+            without having to use the Manager. In Windows Explorer, open the directory containing
+            the executable file of your program.</para>
+          <figure>
+            <title>Windows Explorer</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="explorer.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para> Right-click on the executable file. A contextual menu appears:</para>
+          <figure>
+            <title>Context menu in Windows Explorer</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="contextmenu.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para>In this menu, select &quot;Properties&quot;. A window with several tabs show up,
+            select the tab named Cracklock:</para>
+          <figure>
+            <title>Cracklock configuration window</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="fen_general.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para> If you want to enable Cracklock for this program, check the box <emphasis
+              role="bold">Cure this program with Cracklock</emphasis>. Check <emphasis role="bold"
+              >Show advanced options</emphasis> to show the tabs from the configuration dialog box
+            from the manager. </para>
+        </section>
+        <section>
+          <title>Advanced options</title>
+          <para>You may need to tweak some parameters in some cases to make your application work
+            with Cracklock.</para>
+          <para>
+            <variablelist>
+              <varlistentry>
+                <term>System-wide</term>
+                <listitem>
+                  <para>This will affect the system date and time. With this option, each time you
+                    run the controlled program, the system computer time and date will be changed to
+                    the date/time that you have specified. When the program ends, date and time will
+                    be restored to the actual date and time, taking account of elapsed time during
+                    usage of the program. &lt;br&gt; The drawback of this method is that all
+                    programs running simultaneously are affected together, Cracklock in its native
+                    method being precisely designed to affect specific date and time to each program
+                    running at one given moment and to avoid this inconvenience. &lt;br&gt; This
+                    option reproduces what you can do yourself manually without Cracklock, with the
+                    &quot;date&quot; or &quot;time&quot; commands under MS/DOS or with the
+                    configuration panel under Windows. In my mind, it has no real benefit.</para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Freeze date and time</term>
+                <listitem>
+                  <para>This &quot;freeze&quot; option allows to set a date/time which never
+                    changes, as if the time was frozen. Useful for programs that work only during a
+                    few hours or minutes. &lt;br&gt; For example, if you set 10:00:00 09/22/1981 for
+                    this program, during all the run it will &quot;think&quot; the time is 10:00:00
+                    09/22/1981.Ten minutes later, the time will still be 10:00:00 09/22/1981 for the
+                    application. If the option is not selected, however, at the start the program
+                    will have a time of 10:00:00&#160;09/22/1981, and ten minutes later it will be
+                    10:10:00&#160;09/22/1981.</para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Injection mode</term>
+                <listitem>
+                  <para> In the &quot;injection mode&quot; tab of the configuration window, you can
+                    select between two different modes: static or run-time </para>
+                  <para>With static-injection, Cracklock will alter the executable file of your
+                    application in order to make it load Cracklock. You can additionally tell
+                    Cracklock which file it should modify by selecting an executable file among the
+                    list of dependencies of your application.The license that you signed when you
+                    install a software often prevents you from modifying its executable files - even
+                    for the purpose of correcting a bug, as in the present case - so if you have
+                    signed such a license then you must not use static injection.</para>
+                  <para>The other mode is &quot;run-time injection&quot;:</para>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="injectionmode_window.png"/>
+                    </imageobject>
+                  </mediaobject>
+                  <para>Using the run-time injection, Cracklock does not modify any executable file
+                    from your application, everything happens at run-time. Note that in this case
+                    you need to make sure that the system-wide injection is activated otherwise you
+                    will have to start the program from a special shortcut or from wihtin the
+                    manager.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </para>
+        </section>
+      </section>
+      <section>
+        <title>Starting an application</title>
+        <para>To execute a program under the control of Cracklock, you can either run it as usual
+          from the shortcut in the <emphasis role="bold">&quot;Start&quot;</emphasis> menu, or
+          selecting the program in the manager and clicking on the <emphasis role="bold"
+          >Execute</emphasis> menu.</para>
+        <para><emphasis role="bold">Special case: </emphasis>If the run-time injection mode is
+          selected for the application and if system-wide injection is deactivated then then you
+          cannot run the program in the normal way. In this case, you can start your application
+          using one of the following methods: <itemizedlist>
+            <listitem>
+              <para>Launch your application from Cracklock manager,</para>
+            </listitem>
+            <listitem>
+              <para>Open up the &quot;injection mode&quot; tab in the configuration window in
+                the Cracklock manager and click on the link to create a desktop shortcut. You can
+                then run the application directly from this shortcut.</para>
+            </listitem>
+            <listitem>
+              <para>Start the following command:
+                <programlisting>&quot;C:\PROGRAM FILES\Cracklock\MCL.EXE&quot;&#160;C:\APP\APP.EXE [program_parameters]</programlisting></para>
+              <para>where &quot;C:\PROGRAM FILES\Cracklock\MCL.EXE&quot; is the full path to the
+                MCL.EXE file installed in the Cracklock directory, C:\APP\APP.EXE is the full path
+                to the executable .EXE file of your program, and [program_parameters] are the
+                optional parameters required by your program.</para>
+              <para>From the Windows Explorer, go to the folder containing your application
+                executable file:</para>
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="explorer.png"/>
+                </imageobject>
+              </mediaobject>
+            </listitem>
+            <listitem>
+              <para>Right-click on the executable file to bring up the context menu: </para>
+              <mediaobject>
+                <imageobject>
+                  <imagedata fileref="menu_context_demarrer.png"/>
+                </imageobject>
+              </mediaobject>
+              <para> and select the <emphasis role="bold">&quot;Start with
+                Cracklock&quot;</emphasis> option. </para>
+            </listitem>
+          </itemizedlist></para>
+      </section>
+      <section>
+        <title>Examples</title>
+        <para> Cracklock comes with two example applications showing the system date/time. To check
+          that Cracklock works correctly, you can try to configure these two examples in the
+          Manager. These two aplications are located in the &quot;Examples&quot; subfolder of the
+          Cracklock directory. </para>
+        <table frame="none">
+          <title>Examples</title>
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="newCol3"/>
+            <thead>
+              <row>
+                <entry>File</entry>
+                <entry align="left">Description</entry>
+                <entry align="left">Programming language</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>vcdate.exe</entry>
+                <entry>DigClock program from the book Programming Windows 95 by Charles Petzold
+                  (Microsoft Press)</entry>
+                <entry>Visual C++</entry>
+              </row>
+              <row>
+                <entry>vbdate.exe</entry>
+                <entry>A test program of my own.</entry>
+                <entry>Visual Basic 5.0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>    
+  </section>
+  <section>
+    <title>Known limitations</title>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para>Under Windows NT, Cracklock cannot modify system files like MSVCRT.DLL that are
+            located in the system directory,</para>
+        </listitem>
+        <listitem>
+          <para>the current version of Cracklock doesn&apos;t recognize programs configurated with
+            the 1.x and 2.x versions,</para>
+        </listitem>
+        <listitem>
+          <para>Cracklock does not work with 16 bits programs (those designed for Windows
+          3.1).</para>
+        </listitem>
+      </itemizedlist>
+    </para>
+  </section>
+  <section>
+    <title>Miscellaneous</title>
+    <section>
+      <title>EULA</title>
+      <para>NO WARRANTY. The Software is being delivered to you &quot;AS IS&quot; and the Author
+        makes no warranty as to its use or performance. The Author provides no technical support,
+        warranties or remedies for the Software. THE AUTHOR AND ITS SUPPLIERS DO NOT AND CANNOT
+        WARRANT THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE SOFTWARE.</para>
+      <para>LIMITATION OF LIABILITY. IN NO EVENT WILL THE AUTHOR OF CRACKLOCK OR ITS SUPPLIERS BE
+        LIABLE TO YOU FOR ANY DAMAGES, CLAIMS OR COSTS WHATSOEVER OR ANY CONSEQUENTIAL, INDIRECT,
+        INCIDENTAL DAMAGES, OR ANY LOST PROFITS OR LOST SAVINGS.</para>
+      <para>I assume no responsibility for any use nor effects subsequent to the use of Cracklock.
+        Crackclock is not intended for illegal uses. Users only are responsible of the usage they
+        make of Cracklock. In particular, it is their responsibility to pay for the licence of the
+        software runned under the control of Cracklock.</para>
+    </section>
+    <section>
+      <title>Acknowledgment</title>
+      <para>I thank all of the persons who have contributed to Cracklock: My Dad, Dominique Blum for
+        the english version of the documentation and for his spell-check in the french
+        documentation, my family (Dominique, Bianca, Éric et Gwen) for their constant support,
+          <ulink url="mailto:co2pd@yahoo.com">Ernesto Pérez Estévez</ulink> for the Spanish version
+        of Cracklock and its documentation. <ulink url="mailto:kallida@caramail.com">Tarik
+        Kallida</ulink> for the Arabic version of Cracklock and its short documentation and
+        Svetislav Orlovic for the Croatian version of Cracklock.</para>
+    </section>
+    <section>
+      <title>Important note</title>
+      <para>Cracklock is free. You are encouraged to distribute it to your friends. But never forget
+        that you use a 30days limited version of Cracklock ;-)</para>
+    </section>
+    <section>
+      <title>Contact</title>
+      <para>For more information, visit the website: <ulink url="http://william.famille-blum.org/"
+          >http://william.famille-blum.org</ulink>.</para>
+    </section>
+  </section>
+  <section id="changelog">
+    <title>Change logs</title>
+    <para>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="changelog.xml"/>
+    </para>
+  </section>
+</section>

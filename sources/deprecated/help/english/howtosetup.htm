@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <link href="../help.css" rel="stylesheet" type="text/css">
+    <title>How to set up a program for Cracklock</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
+  <body>
+      <h1>How to set up a program for Cracklock</h1>
+    <p>
+      Before anything, you must start the manager from the icon called <b>Cracklock
+      Manager</b> in the <b>Cracklock</b> group of the Windows Start
+      menu.
+    </p>
+    <p align="center">
+      <img src= "fen_gestio.gif"><br>
+      <b>The manager</b>
+    </p>
+    <h2>How to add a new program ?</h2>
+    <p> The first
+      thing to do if you want Cracklock to supervise a program is to add this
+      program to the controlled programs list. For that, you must :
+    <ul>
+	<li> click twice on the <b>Add program</b> icon
+    </li>
+    <li>
+      select the file corresponding to your program (generally it is a file with an .EXE
+      extension)
+    </li>
+    <li> set up the parameters for this program
+    </li>
+    </ul>
+      <i>Note :
+      Currently Cracklock cannot control 16 bits programs (those designed only
+      for Windows 3.1). It only runs with programs designed for 32 bits
+      operating systems, i.e. Windows 95, Windows 98 or Windows NT.</i>
+    </p>
+
+	<h2>Configurating a program for use with Cracklock</h2>
+	<a name="config" id= "config"></a>
+    
+	<p>The only non-optional parameters are the date and time settings.</p>
+    <p>Select the program to parameter from the manager list. Click on the "<b>Program</b>"
+      menu then on "<b>Settings...</b>"
+    </p>
+    <p align="center">
+      <img src= "menu_prog.gif" width="111" height="110"><br>
+      <b>Program menu</b>
+    </p>
+
+    <p> A window appears which suggests several options to set up :
+    </p>
+    <p align="center">
+      <img src= "fen_options.png" width="345" height="385"><br>
+      <b>Settings window</b>
+    </p>
+	
+    <p>
+      You must use
+      calendar and clock to set date and time you want select.
+    </p>
+    <p>
+      Use the
+      "<b>Current date/time</b>" button to load respectively calendar and clock
+      with current system date and time.
+    </p>
+    <p>
+      Use the
+      "<b>File creation date/time</b>" button to load respectively calendar and
+      clock with date and time where the program was installed.
+    </p>
+    <p>
+	You can choose if Cracklock must affect:
+    <ul>
+      <li> "time": only the time will be affected. The date will be the actual system
+      computer date at the running time.</li>
+	  <li> "date and time": Cracklock will affect date and time.
+	  </li>
+	  <li>"date": only the date will be affected. The time will be the actual system
+      computer time at the running time.
+      </li>
+    </ul>
+    </p>
+       
+    <h2>Other options</h2>
+	<p>
+      Most programs don't need further parameters. However, you may need to tweak some parameters in
+      some cases:
+    </p>
+    <h3>"Affects system date and time"</h3>
+    <p>
+      When
+      selected, this option make Cracklock less clever : each time you run the
+      controlled program, the <b>system computer time and date</b> will be
+      loaded with values you have specified. When the program ends, date and
+      time will be restored to the actual date and time, taking account of
+      elapsed time during usage of the program.
+    <br>
+      The drawback
+      of this method is that all programs running simultaneously are affected
+      together, Cracklock in its native method being precisely designed to
+      affect specific date and time to each program running at one given moment
+      and to avoid this inconvenience.
+    <br>
+      This option
+      reproduces what you can do yourself manually without Cracklock, with the
+      "date" or "time" commands under MS/DOS or with the configuration panel
+      under Windows. In my mind, it has no real benefit.
+    </p>
+	
+    <h3>Date and time remain constant"</h3>
+    <p>
+      This "freeze"
+      option allows to set a date/time which never changes, as if the time was
+      frozen. Useful for programs that work only during a few hours or
+      minutes.
+    <br>
+      For example,
+      if you set 10:00:00 09/22/1981 for this program, during all the run it
+      will "think" the time is 10:00:00 09/22/1981. Ten minutes later, the time
+      will be always 10:00:00 09/22/1981 for it.
+    <br>
+      At the
+      opposite, if the option is not selected, at the beginning the program
+      will "think" time is 10:00:00 09/22/1981, and ten minutes later it will
+      "think" time is 10:10:00 09/22/1981.<br>
+    </p>
+    
+	<h3>Advanced options</h3>
+    <p> In the "Dependencies" tab of the configuration window, you have the ability to
+      choose what file to be affected by Cracklock.
+    </p>
+    <p align="center">
+      <b><img src= "fen_depend.png" width="345" height="385"><br> Dependencies window</b>
+    </p>
+
+
+    <p>
+      <b>Often,the license that you signed when you install a software
+      prevents you from modifying its executable files (even for the purpose of correcting a bug,
+      as in our case). If you have signed the license then you must keep your word.</b> To keep
+      your quiet conscience, you can ask Cracklock not to modify any file by
+      selecting <b>"None"</b>.
+    </p>
+    <p>
+      In this case,
+      you will not allowed to run your program straight from the Explorer
+      neither from a DOS window. You would have to run it from the Cracklock
+      manager, wich is the simplest way, or from the modified shortcut in the
+      Windows <b>start menu</b>, or even <a href=
+      "apprunning.htm#explorer">using the contextual menu in
+      Explorer</a>.
+    </p>
+	
+    <h3>Parameter a program directly from the Explorer</h3>
+    <p>
+      You can use Windows Explorer to set up a program for use with Cracklock, without having to start
+      the Cracklock Manager.
+    <br>
+		In Windows Explorer, go to the directory where the executable files of your program
+		are located in.
+    </p>
+    <p align="center">
+      <img src= "explorer.gif" width="449" height="262"><br>
+      <b>Windows Explorer</b>
+    </p>
+
+    <p> In this window, click with the right button on the executable file of your
+      program (VBDate.exe in our example). A contextual menu appears (depending
+      upon the installed utilities, it can look slightly different) :
+    </p>
+    <p align=center> <img src="contextmenu.gif"><br><b>Contextual menu</b></p>
+
+    <p> In this menu, select <b>"Properties"</b> ; a window with several tabs is shown. Select
+      the <b>Cracklock</b> tab :
+    </p>
+    <p align=center>
+      <img src="fen_general.png" width="479" height="502" border="0" hspace="20" vspace="20"><br>
+	  <b>The Cracklock property sheet</b>
+    </p>
+
+    <p>
+      If you want
+      to enable Cracklock for this program, mark the <b>"Activate
+      Cracklock"</b> option.
+    </p>
+    <p>
+      Select the
+      <b>"Show advanced options"</b> option to access the <a href=
+      "howtosetup.htm#config">same options as the manager ones</a>.
+    </p>
+  </body>
+</html>

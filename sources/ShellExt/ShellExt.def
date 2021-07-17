@@ -1,0 +1,70 @@
+LIBRARY             ShellExt
+;DESCRIPTION        'Cracklock Shell Extension'
+
+EXPORTS
+    ; ------------------------
+    ; Fonctions de Dllmain.cpp
+    ; ------------------------
+    DllCanUnloadNow                         PRIVATE ;DLL unloading
+    DllGetClassObject                       PRIVATE ;Component object model
+
+
+    ; -------------------------
+    ; Fonctions de Dllfuncs.cpp
+    ; -------------------------
+    RestoreLFN                              @100
+
+    ErrorReport                             @102
+
+    InvokeHelp                              @103
+
+    OnLanguageChanged                       @106
+
+    ;IsBadRegEntry                           @107
+    ;CleanupRegEntries                       @108
+
+    GetFileBaseNamePart                     @110
+    TruncateFilenameToFileDirectory         @112
+    ;RemoveEndSlash                          @
+
+    GetFileTimeByName                       @113
+    SetFileTimeByName                       @114
+    
+    UpdateRegistrySeparatedStringValueNT    @116
+    
+    InstallSystemwideInjection              @117
+    UninstallSystemwideInjection            @118
+    GetSystemwideInjectionMode              @119
+    
+    IsCracklockInPATHEnvVar                 @120
+    InstallCracklockInPATHEnvVar            @121
+
+    InstallShellExt                         @122
+    UninstallShellExt                       @123
+    IsShellExtInstalled                     @124
+    
+    ShowSettingsDlg                         @125
+    RajouteAuTitre                          @126
+    GetHotLinkColor                         @127
+    KillResidantInjector                    @128
+    
+    ; -----------------------
+    ; Fonction de Common.cpp
+    ; -----------------------
+    LoadResDll                              @200
+    LoadResString                           @201
+    FreeResString                           @202
+    FilePathToRegPath                       @203
+    RegPathToFilePath                       @204
+    ;GetFileKey                              @206
+    GetCLPath                               @207
+    
+    ; -------------------------
+    ; Fonctions de ListView.cpp
+    ; -------------------------
+    LV_ColumnClick                          @303
+    LV_SetView                              @304
+    
+    CracklockSetStorageLocation
+    CracklockUninstall
+	ImportSettingsFromOtherLocations

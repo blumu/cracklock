@@ -1,0 +1,21 @@
+﻿Build started 03/12/2009 1:06:37 AM.
+     1>Project "C:\Users\William\Documents\Cracklock\Manager\Manager.vcxproj" on node 237 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Manager\Manager.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Manager.vcxproj -> C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\Manager.exe
+       BscMake:
+         All outputs are up-to-date.
+       _AfterBuild:
+         Deleting file "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Manager\Manager.unsuccessfulbuild".
+         Touching "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Manager\Manager.lastbuildstate".
+     1>Done Building Project "C:\Users\William\Documents\Cracklock\Manager\Manager.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42

@@ -1,0 +1,179 @@
+body {
+}
+ /* specific styles */
+
+  h1#page-title {
+    font-size: 180%;
+    font-weight: normal;
+    color: #125ebc;
+    letter-spacing: -1px;
+    display: block;
+    border: 0em;
+    padding: 0em;
+    margin: 0em;
+    line-height: 100%;
+  }
+  
+a:link,a:active,a:visited {
+	text-decoration: none;
+}
+
+a:hover	{
+	text-decoration: underline;
+}
+
+a.section:hover
+{
+	text-decoration: none;
+	color:black;
+}
+
+a.section
+{
+	text-decoration: none;
+	color:black;
+}
+
+.drilldown
+{
+	cursor: pointer;
+}
+
+ /* general styles: headings */
+  h1, h2, h3, h4, h5, h6, p.description {
+    font-family: Verdana, Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  }
+  h1 {
+    font-size: 125%;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid #b3e6e6;
+    padding-bottom: 0.2em;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 300%; /* for padding below, the above line took away other possibilities */
+  }
+  h2 {
+    font-size: 120%;
+    font-weight: normal;
+    color: black;
+    border-bottom: 2px solid #b3e6e6;
+    padding-bottom: 0.2em;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 300%; /* for padding below, the above line took away other possibilities */
+  }
+  h3 {
+    font-size: 100%;
+    font-weight: normal;
+    border-bottom: 1px solid #0000FF;
+    padding-bottom: 0.2em;
+    color: black;
+    display: inline;   /* so that the underline spans only text width, and not the entire page */
+    line-height: 200%; /* for padding below, the above line took away other possibilities */
+  }
+  h4 {
+    font-size: 100%;
+    font-weight: bold;
+   /* border-bottom: 1px solid #b3e6e6; */
+    padding-bottom: 0.2em;
+    color: black;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 200%; /* for padding below, the above line took away other possibilities */
+  }
+  h5 {
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    display: inline;
+  }
+  h6 {
+    font-size: 100%;
+    font-weight: normal;
+    color: black;
+    display: inline;
+  }
+  hr {
+    background: white;
+    height: 1px;
+    border: 0em;
+    border-top: 1px solid #b3e6e6;
+    margin: 1em 0em;
+  }
+
+div.maintitle {
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+}
+
+div.qa {
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+div.question {
+	background-color: #c4c4ff;
+	max-width:700px;
+	border: 1px solid #404D20;
+	text-align: justify;
+	padding: 0.1em;
+}
+
+div.answer {
+	/*background-color: #72713F;*/
+	border: 1px solid #404D20;
+	text-align: justify;
+	padding: 0.1em;
+	margin-top: 0.1em;
+	font-style: italic;
+	max-width:700px;
+}
+
+td.answercell {
+	font-style: italic;
+}
+
+div.qa-link {
+	text-align: right;
+}
+
+div.toolbox {
+	float: right;
+	/*background-color: #ffbf80; */
+	border: 1px solid white;
+	padding: 1em;
+}
+
+div.toolbox a {
+	/* display: block;*/
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+
+
+
+.questionrow
+{
+	cursor:pointer;
+}
+.questiontable
+{
+}
+.answerrow
+{
+}
+
+.answertable
+{
+}
+
+.questioncell
+{
+}
+.firstcol
+{
+	width:30px;
+}

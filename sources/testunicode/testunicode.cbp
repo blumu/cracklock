@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="testunicode"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option active_target="1"/>
+		<Option compiler="1"/>
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug\testunicode.exe"/>
+				<Option working_dir="."/>
+				<Option object_output="Debug"/>
+				<Option deps_output=".deps"/>
+				<Option type="0"/>
+				<Option compiler="1"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Compiler>
+					<Add option="/MTd"/>
+					<Add option="/W3"/>
+					<Add option="/O0"/>
+					<Add option="/DWIN32"/>
+					<Add option="/D_DEBUG"/>
+					<Add option="/D_WINDOWS"/>
+				</Compiler>
+				<Linker>
+					<Add option="/pdb:Debug\testunicode.pdb"/>
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Release\testunicode.exe"/>
+				<Option working_dir="."/>
+				<Option object_output="Release"/>
+				<Option deps_output=".deps"/>
+				<Option type="0"/>
+				<Option compiler="1"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Compiler>
+					<Add option="/MT"/>
+					<Add option="/O2"/>
+					<Add option="/W3"/>
+					<Add option="/Zi"/>
+					<Add option="/Ob1"/>
+					<Add option="/DWIN32"/>
+					<Add option="/DNDEBUG"/>
+					<Add option="/D_WINDOWS"/>
+				</Compiler>
+				<Linker>
+					<Add option="/DEBUG"/>
+					<Add option="/INCREMENTAL:NO"/>
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="ReadMe.txt">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="resource.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="testunicode.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="testunicode.rc">
+			<Option compilerVar="WINDRES"/>
+			<Option objectName="testunicode.res"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

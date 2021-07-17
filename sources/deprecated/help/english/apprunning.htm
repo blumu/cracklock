@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <link href="../help.css" rel="stylesheet" type="text/css">
+    <title>Executing a program</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
+  <body>
+    <h1>Executing a program</h1><br>
+    <h2>Normal method</h2>
+    <p>
+      To execute a
+      program under the control of Cracklock, you can either run it as usual
+      from the shortcut in the <b>"Start"</b> menu, or selecting the program in
+      the manager and clicking on the <b>Execute</b> menu.
+    </p>
+    
+	
+	<h2>Special case</h2>
+    <p>
+	In case you have specified in  the "Dependencies" tab to not modify the files of the controlled program then you 
+      cannot run the program in the normal way. You have to use of the three following methods :
+    <ul>
+		<li>Using the manager, as in the general case </li>
+		<li>Modifying the shortcut of your program : make this shortcut (in the "<b>Start</b>"
+		menu of Windows) pointing to the following command :
+		<p>
+			<b>C:\PROGRA~1\Cracklock\MCL.EXE   C:\APP\APP.EXE
+	         [program_parameters]</b><br>
+			<br>
+			where
+			<br> - C:\PROGRA~1\Cracklock\MCL.EXE is the full path to the MCL.EXE program
+	      installed by Cracklock
+			<br> - C:\APP\APP.EXE is the full path to the executable .EXE file of your
+	      program
+			<br> - [program_parameters] are the optional parameters required by your
+	      program
+		</p>
+		</li>
+		
+		<li>Using context menu of Windows Explorer
+			<a name="explorer" id="explorer"></a>:
+			<p>In the explorer, go to the folder where your program files are located in
+			</p>
+			<p align="center">
+				<img src= "explorer.gif" width="449" height="262">
+				<br>
+				<b>Windows Explorer</b>
+			</p>      
+			<p>
+			In this
+			window, click with the right button on the executable file of your
+			program (VBDate.exe in the example). A context menu appears :
+			</p>
+			<p align="center">
+				<img src=
+				"menu_context_demarrer.gif"><br>
+				<b>Context menu</b>
+			</p>
+			Finally, select the <b>"Start with Cracklock"</b> option.
+		</li>
+    </ul>
+    </p>
+  </body>
+</html>

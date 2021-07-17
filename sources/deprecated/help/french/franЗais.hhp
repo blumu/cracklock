@@ -1,0 +1,34 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\Cracklock-fr.chm
+Contents file=français.hhc
+Default topic=Bienvenue.htm
+Display compile progress=Yes
+Full text search stop list file=
+Index file=français.hhk
+Language=0x40c French (France)
+Title=Aide de Cracklock en français
+
+
+[FILES]
+../help.css
+../fond.jpg
+index.html
+Bienvenue.htm
+bugs.htm
+Configurer.htm
+contact.htm
+Desinstallation.htm
+exemples.htm
+gestionnaire.htm
+Historique.htm
+Installation.htm
+Introduction.htm
+lancer_une_app.htm
+MERCI.HTM
+note1x2x.htm
+Note_Importante.htm
+Responsabilite.htm
+
+[INFOTYPES]
+

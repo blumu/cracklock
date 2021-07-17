@@ -1,0 +1,21 @@
+#### Chemin d'access aux outils
+SEVENZIP = "c:/xcopy-progs/tools/7z.exe"
+HHC = "C:/Program Files/HTML Help Workshop/hhc.exe"
+INNOCOMPILE = "C:/Program Files/Inno Setup 5/iscc.EXE"
+CRACKLOCK_DIR = software/cracklock/
+LOCALWWW = c:/users/william/documents/website/
+SERVER = william@www.famille-blum.org
+BACKUP_DIR = /home/william/archives/
+WWWROOT = /home/william/public_html/
+WWW = $(SERVER):$(WWWROOT)
+MSBUILD = "C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe"
+LINGOBITLOCALIZER = "C:/xcopy-progs/Lingobit Localizer/localizer.com"
+#MULTILIZER = "C:/Program Files/Multilizer 6/Bin/MlBuild.exe"
+PSCP=c:/xcopy-progs/tools/pscp.exe
+
+XSLTPROC=c:/xcopy-progs/libxslt/bin/xsltproc.exe
+MSXSL=c:/xcopy-progs/tools/msxsl.exe
+
+DOCBOOK-XSL=xmldoc\docbook-xsl-1.73.2
+
+

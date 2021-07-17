@@ -1,0 +1,19 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=htmlhelp.chm
+Contents file=toc.hhc
+Default Window=Main
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x0409 English (UNITED STATES)
+Title=Cracklock documentation
+Enhanced decompilation=No
+
+[WINDOWS]
+Main="Cracklock documentation","toc.hhc",,"index.html","index.html",,,,,0x2520,,0x603006,,,,,,,,0
+
+
+[FILES]
+index.html

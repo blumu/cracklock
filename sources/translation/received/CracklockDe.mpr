@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document name="All" class="TDocument" version="6.1.27" date="20050507184333" exchanged="1">
+  <lang id="de"/>
+  <excludedcontexts>
+    <item>..\Release\Languages\CLRESUS.dll.Dialogs.104.Font</item>
+    <item>..\Release\Languages\CLRESUS.dll.Dialogs.102.Font</item>
+  </excludedcontexts>
+  <excludednatives>
+    <item class="TStringField">http://william.famille-blum.org/</item>
+    <item class="TStringField">rundll32 CLSHEX.DLL,RestoreLFN</item>
+    <item class="TStringField">MicroBest Cracklock LFN Restoration</item>
+    <item class="TStringField">CLRESUS.dll</item>
+  </excludednatives>
+  <target name="..\Release\Languages\CLRESUS.dll" class="TWindowsResourceBinaryTarget" status="0" native="en" filename="..\Release\Languages\CLRESUS.dll" date="20050507133142">
+    <fonts change="fcAll"/>
+    <localizedfile kind="lfkBundle"/>
+    <components>
+      <item name="CCalendar" class="TRadCalendar"/>
+      <item name="CClock" class="TRadDateTimePicker"/>
+    </components>
+    <node name="Dialogs" class="TWinBinaryDialogFolder">
+      <node name="102" class="TWinBinaryDialogNode" reskind="rkDialog" resid="102">
+        <form name="102" class="TWinForm" status="0" bordericons="[biSystemMenu]" borderstyle="bsDialog" style="2160593088">
+          <row name="ClientHeight">178</row>
+          <row name="ClientWidth">162</row>
+          <field name="Font">MS Sans Serif,8</field>
+          <row name="Left">0</row>
+          <row name="Text">
+            <native>About Cracklock</native>
+            <lang id="de" status="3">Über Cracklock</lang>
+          </row>
+          <row name="Top">0</row>
+          <component name="1002" class="TRadFramePicture" type="static">
+            <row name="Height">110</row>
+            <row name="Left">
+              <native>7</native>
+              <old>6</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">22</row>
+            <row name="Width">148</row>
+          </component>
+          <component name="#static2" class="TRadFramePicture" type="static" kind="skEtched">
+            <row name="Height">1</row>
+            <row name="Left">
+              <native>7</native>
+              <old>6</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">139</row>
+            <row name="Width">148</row>
+          </component>
+          <component name="#static1" class="TRadLabel" type="static" autosize="0" transparent="1" wordwrap="1">
+            <row name="Height">25</row>
+            <row name="Left">
+              <native>7</native>
+              <old>6</old>
+            </row>
+            <row name="Text">
+              <native>This software must be use for legal purpose. Do not use Cracklock onto software if you do not own the appropiated license.</native>
+              <lang id="de" status="3">Diese Software darf nur für legale Zwecke eingesetzt werden. Benutzen Sie Cracklock nur für Software, für die Sie eine korrekte Lizenz besitzen.</lang>
+            </row>
+            <row name="Top">147</row>
+            <row name="Width">148</row>
+          </component>
+          <component name="1001" class="TRadLabel" type="static" alignment="taCenter" autosize="0" layout="tlCenter" wordwrap="1">
+            <row name="Height">19</row>
+            <row name="Left">
+              <native>7</native>
+              <old>6</old>
+            </row>
+            <row name="Text">
+              <native>Cracklock</native>
+              <lang id="de" status="3">Cracklock</lang>
+            </row>
+            <row name="Top">3</row>
+            <row name="Width">148</row>
+          </component>
+        </form>
+      </node>
+      <node name="104" class="TWinBinaryDialogNode" reskind="rkDialog" resid="104">
+        <form name="104" class="TWinForm" status="0" bordericons="[biSystemMenu]" borderstyle="bsDialog" style="2160599232">
+          <row name="ClientHeight">102</row>
+          <row name="ClientWidth">210</row>
+          <field name="Font">MS Sans Serif,8</field>
+          <row name="Left">0</row>
+          <row name="Text">
+            <native>Configuration</native>
+            <lang id="de" status="3">Konfiguration</lang>
+          </row>
+          <row name="Top">0</row>
+          <component name="1" class="TRadButton" type="button" default="1">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>38</native>
+              <old>122</old>
+            </row>
+            <row name="Text">
+              <native>&amp;OK</native>
+              <lang id="de" status="3">OK</lang>
+            </row>
+            <row name="Top">82</row>
+            <row name="Width">50</row>
+          </component>
+          <component name="3" class="TRadButton" type="button" enabled="0">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>154</native>
+              <old>6</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Apply</native>
+              <lang id="de" status="3">Übernehmen</lang>
+            </row>
+            <row name="Top">82</row>
+            <row name="Width">50</row>
+          </component>
+          <component name="2" class="TRadButton" type="button">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>96</native>
+              <old>64</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Cancel</native>
+              <lang id="de" status="3">Abbrechen</lang>
+            </row>
+            <row name="Top">82</row>
+            <row name="Width">50</row>
+          </component>
+        </form>
+      </node>
+      <node name="115" class="TWinBinaryDialogNode" reskind="rkDialog" resid="115">
+        <form name="115" class="TWinForm" status="0" bordericons="[]" borderstyle="bsNone" showcaption="0" style="1073741888" exstyle="65536">
+          <row name="ClientHeight">205</row>
+          <row name="ClientWidth">226</row>
+          <row name="Font" enabled="0" hidden="1">MS Sans Serif,8</row>
+          <row name="Left">0</row>
+          <field name="Text"></field>
+          <row name="Top">0</row>
+        </form>
+      </node>
+      <node name="124" class="TWinBinaryDialogNode" reskind="rkDialog" resid="124">
+        <form name="124" class="TWinForm" status="0" bordericons="[]" borderstyle="bsNone" showcaption="0" style="1073742912">
+          <row name="ClientHeight">178</row>
+          <row name="ClientWidth">210</row>
+          <row name="Font" enabled="0" hidden="1">MS Sans Serif,8</row>
+          <row name="Left">0</row>
+          <field name="Text"></field>
+          <row name="Top">0</row>
+          <component name="1082" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">17</row>
+            <row name="Left">
+              <native>3</native>
+              <old>5</old>
+            </row>
+            <row name="Text" enabled="0" hidden="1">ici y'a les infos :</row>
+            <row name="Top">3</row>
+            <row name="Width">202</row>
+          </component>
+        </form>
+      </node>
+      <node name="143" class="TWinBinaryDialogNode" reskind="rkDialog" resid="143">
+        <form name="143" class="TWinForm" status="0" bordericons="[biSystemMenu]" borderstyle="bsDialog" style="2160593088">
+          <row name="ClientHeight">153</row>
+          <row name="ClientWidth">263</row>
+          <row name="Font" enabled="0" hidden="1">MS Sans Serif,8</row>
+          <row name="Left">0</row>
+          <row name="Text">
+            <native>Some files cannot be modified</native>
+            <lang id="de" status="3">Einige Dateien können nicht geändert werden</lang>
+          </row>
+          <row name="Top">0</row>
+          <component name="1001" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">19</row>
+            <row name="Left">7</row>
+            <row name="Text">
+              <native>The following files cannot be modified, they probably have the read-only attribute or they are used by a program currently running.</native>
+              <lang id="de" status="3">Die folgenden Dateien können nicht geändert werden. Sie besitzen wahrscheinlich das Nur-Lesen Attribut oder werden momentan von einem anderen laufenden Programm benutzt.</lang>
+            </row>
+            <row name="Top">3</row>
+            <row name="Width">249</row>
+          </component>
+          <component name="1008" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">
+              <native>26</native>
+              <old>30</old>
+            </row>
+            <row name="Left">7</row>
+            <row name="Text">
+              <native>You can exit all running programs and choose "Retry", click "Restart later" to modify these files when Windows will restart, click "Restart now" to restart Windows immediately or click "Cancel" to return to the configuration dialog box.</native>
+              <lang id="de" status="3">Sie können alle laufenden Programme beenden und "Erneut versuchen" wählen. Wählen Sie dann "Später neu starten", um die Dateien nach dem neustart zu ändern, oder "Jetzt neu starten", um Windows sofort neu zu starten. Wählen sie "Abbrechen", um zum Konfigurationsdialog zurückzukehren.</lang>
+            </row>
+            <row name="Top">
+              <native>100</native>
+              <old>96</old>
+            </row>
+            <row name="Width">249</row>
+          </component>
+          <component name="3" class="TRadButton" type="button" default="1">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>7</native>
+              <old>206</old>
+            </row>
+            <row name="Text">
+              <native>R&amp;etry</native>
+              <lang id="de" status="3">Erneut versuchen</lang>
+            </row>
+            <row name="Top">132</row>
+            <row name="Width">50</row>
+          </component>
+          <component name="1081" class="TRadButton" type="button">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>73</native>
+              <old>140</old>
+            </row>
+            <row name="Text">
+              <native>Restart &amp;later</native>
+              <lang id="de" status="3">Später erneut versuchen</lang>
+            </row>
+            <row name="Top">132</row>
+            <row name="Width">50</row>
+          </component>
+          <component name="1082" class="TRadButton" type="button">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>139</native>
+              <old>74</old>
+            </row>
+            <row name="Text">
+              <native>Restart &amp;now</native>
+              <lang id="de" status="3">Jetzt neu starten</lang>
+            </row>
+            <row name="Top">132</row>
+            <row name="Width">50</row>
+          </component>
+          <component name="2" class="TRadButton" type="button">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>205</native>
+              <old>8</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Cancel</native>
+              <lang id="de" status="2">Abbrechen</lang>
+            </row>
+            <row name="Top">132</row>
+            <row name="Width">50</row>
+          </component>
+        </form>
+      </node>
+      <node name="152" class="TWinBinaryDialogNode" reskind="rkDialog" resid="152">
+        <form name="152" class="TWinForm" status="0" bordericons="[]" borderstyle="bsNone" showcaption="0" style="1073742912">
+          <row name="ClientHeight">181</row>
+          <row name="ClientWidth">216</row>
+          <row name="Font" enabled="0" hidden="1">MS Sans Serif,8</row>
+          <row name="Left">0</row>
+          <field name="Text"></field>
+          <row name="Top">0</row>
+          <component name="711" class="TRadCalendar" type="CCalendar">
+            <row name="Height">76</row>
+            <row name="Left">
+              <native>6</native>
+              <old>100</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">34</row>
+            <row name="Width">110</row>
+          </component>
+          <component name="1067" class="TRadCheckBox" type="button" wordwrap="1">
+            <row name="Height">16</row>
+            <row name="Left">
+              <native>6</native>
+              <old>85</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Non virtual (will change the system date/time)</native>
+              <lang id="de" status="3">Nicht-virtuell (verändert die Systemuhr)</lang>
+            </row>
+            <row name="Top">147</row>
+            <row name="Width">125</row>
+          </component>
+          <component name="1033" class="TRadCheckBox" type="button">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>6</native>
+              <old>82</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Freeze date/time</native>
+              <lang id="de" status="3">Zeit/Datum einfrieren</lang>
+            </row>
+            <row name="Top">164</row>
+            <row name="Width">128</row>
+          </component>
+          <component name="1101" class="TRadRadioButton" type="button">
+            <row name="Height">10</row>
+            <row name="Left">
+              <native>148</native>
+              <old>13</old>
+            </row>
+            <row name="Text">
+              <native>&amp;time</native>
+              <lang id="de" status="3">Zeit</lang>
+            </row>
+            <row name="Top">137</row>
+            <row name="Width">55</row>
+          </component>
+          <component name="1100" class="TRadRadioButton" type="button">
+            <row name="Height">10</row>
+            <row name="Left">
+              <native>148</native>
+              <old>13</old>
+            </row>
+            <row name="Text">
+              <native>date &amp;and time</native>
+              <lang id="de" status="3">Datum und Zeit</lang>
+            </row>
+            <row name="Top">149</row>
+            <row name="Width">
+              <native>55</native>
+              <lang id="de" status="0">61</lang>
+            </row>
+          </component>
+          <component name="1099" class="TRadRadioButton" type="button">
+            <row name="Height">10</row>
+            <row name="Left">
+              <native>148</native>
+              <old>13</old>
+            </row>
+            <row name="Text">
+              <native>&amp;date</native>
+              <lang id="de" status="3">Datum</lang>
+            </row>
+            <row name="Top">161</row>
+            <row name="Width">55</row>
+          </component>
+          <component name="708" class="TRadLabel" type="static" alignment="taCenter" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>146</native>
+              <old>62</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">107</row>
+            <row name="Width">8</row>
+          </component>
+          <component name="707" class="TRadLabel" type="static" alignment="taCenter" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>164</native>
+              <old>44</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">107</row>
+            <row name="Width">8</row>
+          </component>
+          <component name="#static1" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>140</native>
+              <old>14</old>
+            </row>
+            <row name="Text">
+              <native>Alter:</native>
+              <lang id="de" status="3">Verändern:</lang>
+            </row>
+            <row name="Top">128</row>
+            <row name="Width">62</row>
+          </component>
+          <component name="1082" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">12</row>
+            <row name="Left">
+              <native>3</native>
+              <old>9</old>
+            </row>
+            <row name="Text">
+              <native>Pick up virtual date and time for this application:</native>
+              <lang id="de" status="3">Virtuelles Datum/Uhrzeit für diese Anwendung übernehmen:</lang>
+            </row>
+            <row name="Top">3</row>
+            <row name="Width">204</row>
+          </component>
+          <component name="713" class="TRadComboBox" type="combobox" autosize="1" integralheight="1" style="csDropDownList">
+            <row name="Height">120</row>
+            <row name="Left">
+              <native>6</native>
+              <old>146</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">18</row>
+            <row name="Width">64</row>
+          </component>
+          <component name="706" class="TRadEdit" type="edit">
+            <row name="Height">13</row>
+            <row name="Left">
+              <native>73</native>
+              <old>112</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">18</row>
+            <row name="Width">31</row>
+          </component>
+          <component name="714" class="TRadUpDown" type="msctls_updown32">
+            <row name="Height">12</row>
+            <row name="Left">
+              <native>105</native>
+              <old>100</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">18</row>
+            <row name="Width">11</row>
+          </component>
+          <component name="712" class="TRadDateTimePicker" type="CClock">
+            <row name="Height">85</row>
+            <row name="Left">
+              <native>120</native>
+              <old>7</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">18</row>
+            <row name="Width">89</row>
+          </component>
+          <component name="701" class="TRadEdit" type="edit" edgeinner="ecNone" edgekind="ekNone" edgeouter="ecNone">
+            <row name="Height">12</row>
+            <row name="Left">
+              <native>138</native>
+              <old>70</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">107</row>
+            <row name="Width">8</row>
+          </component>
+          <component name="702" class="TRadEdit" type="edit" edgeinner="ecNone" edgekind="ekNone" edgeouter="ecNone">
+            <row name="Height">12</row>
+            <row name="Left">
+              <native>155</native>
+              <old>53</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">107</row>
+            <row name="Width">8</row>
+          </component>
+          <component name="703" class="TRadEdit" type="edit" edgeinner="ecNone" edgekind="ekNone" edgeouter="ecNone">
+            <row name="Height">12</row>
+            <row name="Left">
+              <native>172</native>
+              <old>36</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">107</row>
+            <row name="Width">8</row>
+          </component>
+          <component name="710" class="TRadListBox" type="listbox">
+            <row name="Height">9</row>
+            <row name="Left">
+              <native>180</native>
+              <old>23</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">108</row>
+            <row name="Width">
+              <native>13</native>
+              <old>11</old>
+            </row>
+          </component>
+          <component name="709" class="TRadUpDown" type="msctls_updown32">
+            <row name="Height">11</row>
+            <row name="Left">
+              <native>193</native>
+              <old>12</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">106</row>
+            <row name="Width">11</row>
+          </component>
+          <component name="1096" class="TRadButton" type="button" wordwrap="1">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>6</native>
+              <old>90</old>
+            </row>
+            <row name="Text">
+              <native>Load c&amp;urrent date/time</native>
+              <lang id="de" status="3">Aktuelles Datum/Uhrzeit übernehmen</lang>
+            </row>
+            <row name="Top">115</row>
+            <row name="Width">120</row>
+          </component>
+          <component name="1095" class="TRadButton" type="button" wordwrap="1">
+            <row name="Height">14</row>
+            <row name="Left">
+              <native>6</native>
+              <old>90</old>
+            </row>
+            <row name="Text">
+              <native>Load &amp;file creation date/time</native>
+              <lang id="de" status="3">Datum/Uhrzeit der Dateierstellung übernehmen</lang>
+            </row>
+            <row name="Top">131</row>
+            <row name="Width">120</row>
+          </component>
+        </form>
+      </node>
+      <node name="153" class="TWinBinaryDialogNode" reskind="rkDialog" resid="153">
+        <form name="153" class="TWinForm" status="0" bordericons="[]" borderstyle="bsNone" showcaption="0" style="1073742912">
+          <row name="ClientHeight">161</row>
+          <row name="ClientWidth">192</row>
+          <row name="Font" enabled="0" hidden="1">MS Sans Serif,8</row>
+          <row name="Left">0</row>
+          <field name="Text"></field>
+          <row name="Top">0</row>
+          <component name="#button1" class="TRadGroupBox" type="button">
+            <row name="Height">95</row>
+            <row name="Left">
+              <native>18</native>
+              <old>42</old>
+            </row>
+            <row name="Text">
+              <native>Legend for the dependencies list </native>
+              <lang id="de" status="3">Legende für die Abhängigkeitsliste</lang>
+            </row>
+            <row name="Top">56</row>
+            <row name="Width">154</row>
+          </component>
+          <component name="1005" class="TRadIconPicture" type="static" iconname="239">
+            <row name="Height">20</row>
+            <row name="Left">
+              <native>29</native>
+              <old>165</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">72</row>
+            <row name="Width">20</row>
+          </component>
+          <component name="#static1" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">9</row>
+            <row name="Left">46</row>
+            <row name="Text">
+              <native>Unselected</native>
+              <lang id="de" status="3">Nicht ausgewählt</lang>
+            </row>
+            <row name="Top">72</row>
+            <row name="Width">122</row>
+          </component>
+          <component name="1006" class="TRadIconPicture" type="static" iconname="237">
+            <row name="Height">20</row>
+            <row name="Left">
+              <native>29</native>
+              <old>165</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">86</row>
+            <row name="Width">20</row>
+          </component>
+          <component name="#static2" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">9</row>
+            <row name="Left">
+              <native>46</native>
+              <old>45</old>
+            </row>
+            <row name="Text">
+              <native>Cannot be selected</native>
+              <lang id="de" status="3">Kann nicht ausgewählt werden</lang>
+            </row>
+            <row name="Top">86</row>
+            <row name="Width">123</row>
+          </component>
+          <component name="1007" class="TRadIconPicture" type="static" iconname="238">
+            <row name="Height">20</row>
+            <row name="Left">
+              <native>29</native>
+              <old>165</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">100</row>
+            <row name="Width">20</row>
+          </component>
+          <component name="#static3" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">9</row>
+            <row name="Left">46</row>
+            <row name="Text">
+              <native>Selected for another application</native>
+              <lang id="de" status="3">Für eine andere Anwendung auswählen</lang>
+            </row>
+            <row name="Top">100</row>
+            <row name="Width">122</row>
+          </component>
+          <component name="1008" class="TRadIconPicture" type="static" iconname="232">
+            <row name="Height">20</row>
+            <row name="Left">
+              <native>29</native>
+              <old>165</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">114</row>
+            <row name="Width">20</row>
+          </component>
+          <component name="#static4" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">9</row>
+            <row name="Left">46</row>
+            <row name="Text">
+              <native>Unselected</native>
+              <lang id="de" status="2">Nicht ausgewählt</lang>
+            </row>
+            <row name="Top">114</row>
+            <row name="Width">122</row>
+          </component>
+          <component name="1009" class="TRadIconPicture" type="static" iconname="231">
+            <row name="Height">20</row>
+            <row name="Left">
+              <native>29</native>
+              <old>165</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">128</row>
+            <row name="Width">20</row>
+          </component>
+          <component name="#static5" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">9</row>
+            <row name="Left">
+              <native>46</native>
+              <old>47</old>
+            </row>
+            <row name="Text">
+              <native>Currently selected for this application</native>
+              <lang id="de" status="3">Momentan für diese Anwendung ausgewählt</lang>
+            </row>
+            <row name="Top">128</row>
+            <row name="Width">121</row>
+          </component>
+          <component name="1098" class="TRadButton" type="button">
+            <row name="Height">16</row>
+            <row name="Left">
+              <native>60</native>
+              <old>83</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Documentation ...</native>
+              <lang id="de" status="3">Dokumentation</lang>
+            </row>
+            <row name="Top">24</row>
+            <row name="Width">71</row>
+          </component>
+        </form>
+      </node>
+      <node name="154" class="TWinBinaryDialogNode" reskind="rkDialog" resid="154">
+        <form name="154" class="TWinForm" status="0" bordericons="[]" borderstyle="bsNone" showcaption="0" style="1073742912">
+          <row name="ClientHeight">184</row>
+          <row name="ClientWidth">211</row>
+          <row name="Font" enabled="0" hidden="1">MS Sans Serif,8</row>
+          <row name="Left">0</row>
+          <field name="Text"></field>
+          <row name="Top">0</row>
+          <component name="#static2" class="TRadFramePicture" type="static" kind="skEtched">
+            <row name="Height">1</row>
+            <row name="Left">
+              <native>19</native>
+              <old>35</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">100</row>
+            <row name="Width">170</row>
+          </component>
+          <component name="1087" class="TRadIconPicture" type="static" iconname="203">
+            <row name="Height">20</row>
+            <row name="Left">
+              <native>3</native>
+              <old>201</old>
+            </row>
+            <field name="Text"></field>
+            <row name="Top">3</row>
+            <row name="Width">20</row>
+          </component>
+          <component name="1001" class="TRadLabel" type="static" autosize="0" layout="tlCenter" wordwrap="1">
+            <row name="Height">21</row>
+            <row name="Left">
+              <native>26</native>
+              <old>16</old>
+            </row>
+            <row name="Text">
+              <native>Cracklock Version</native>
+              <lang id="de" status="3">Cracklock-Version</lang>
+            </row>
+            <row name="Top">3</row>
+            <row name="Width">182</row>
+          </component>
+          <component name="1094" class="TRadCheckBox" type="button">
+            <row name="Height">10</row>
+            <row name="Left">
+              <native>3</native>
+              <old>53</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Show advanced options</native>
+              <lang id="de" status="3">Erweiterte Optionen anzeigen</lang>
+            </row>
+            <row name="Top">26</row>
+            <row name="Width">168</row>
+          </component>
+          <component name="1068" class="TRadCheckBox" type="button">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>9</native>
+              <old>13</old>
+            </row>
+            <row name="Text">
+              <native>&amp;Cure this program with Cracklock</native>
+              <lang id="de" status="3">Dieses Programm mit Cracklock behandeln</lang>
+            </row>
+            <row name="Top">48</row>
+            <row name="Width">202</row>
+          </component>
+          <component name="#static1" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">41</row>
+            <row name="Left">
+              <native>20</native>
+              <old>28</old>
+            </row>
+            <row name="Text">
+              <native>Selection this option if the program stops working properly several days after its installation.</native>
+              <lang id="de" status="3">Wählen Sie diese Option, wenn das Programm einige Tage nach der Installation aufhört zu funktionieren.</lang>
+            </row>
+            <row name="Top">59</row>
+            <row name="Width">176</row>
+          </component>
+          <component name="#static3" class="TRadLabel" type="static" alignment="taRightJustify" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>21</native>
+              <old>147</old>
+            </row>
+            <row name="Text">
+              <native>Author :</native>
+              <lang id="de" status="3">Autor:</lang>
+            </row>
+            <row name="Top">114</row>
+            <row name="Width">56</row>
+          </component>
+          <component name="1096" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>83</native>
+              <old>24</old>
+            </row>
+            <row name="Text" enabled="0" hidden="1">William Blum</row>
+            <row name="Top">114</row>
+            <row name="Width">117</row>
+          </component>
+          <component name="#static4" class="TRadLabel" type="static" alignment="taRightJustify" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>21</native>
+              <old>147</old>
+            </row>
+            <row name="Text">
+              <native>Web page :</native>
+              <lang id="de" status="3">Web-Seite:</lang>
+            </row>
+            <row name="Top">132</row>
+            <row name="Width">56</row>
+          </component>
+          <component name="1095" class="TRadLabel" type="static" autosize="0" wordwrap="1">
+            <row name="Height">8</row>
+            <row name="Left">
+              <native>83</native>
+              <old>40</old>
+            </row>
+            <row name="Text" enabled="0" hidden="1">WEB PAGE LINK GOES HERE</row>
+            <row name="Top">132</row>
+            <row name="Width">101</row>
+          </component>
+        </form>
+      </node>
+    </node>
+    <node name="Menus" class="TWinBinaryMenuFolder">
+      <node name="102" class="TWinBinaryMenuNode" reskind="rkMenu" resid="102">
+        <item name="0" status="0" option="16">
+          <row name="Text" status="0">
+            <native>&amp;Program</native>
+            <lang id="de" status="3">Programm</lang>
+          </row>
+        </item>
+        <item name="40004" status="0" id="40004" option="1">
+          <row name="Text" status="0">
+            <native>&amp;Run...</native>
+            <lang id="de" status="3">Ausführen...</lang>
+          </row>
+        </item>
+        <item name="#0_0" status="0">
+        </item>
+        <item name="40011" status="0" id="40011" option="1">
+          <row name="Text" status="0">
+            <native>Delete</native>
+            <lang id="de" status="3">Löschen</lang>
+          </row>
+        </item>
+        <item name="40005" status="0" id="40005" option="1">
+          <row name="Text" status="0">
+            <native>&amp;Configure...</native>
+            <lang id="de" status="3">Konfigurieren...</lang>
+          </row>
+        </item>
+        <item name="#0_1" status="0">
+        </item>
+        <item name="40012" status="0" id="40012" option="128">
+          <row name="Text" status="0">
+            <native>&amp;Close</native>
+            <lang id="de" status="3">Schließen</lang>
+          </row>
+        </item>
+        <item name="#0_2" status="0" option="16">
+          <row name="Text" status="0">
+            <native>&amp;View</native>
+            <lang id="de" status="3">Ansicht</lang>
+          </row>
+        </item>
+        <item name="40018" status="0" id="40018">
+          <row name="Text" status="0">
+            <native>L&amp;arge icons</native>
+            <lang id="de" status="3">Große Symbole</lang>
+          </row>
+        </item>
+        <item name="40019" status="0" id="40019">
+          <row name="Text" status="0">
+            <native>S&amp;mall icons</native>
+            <lang id="de" status="3">Kleine Symbole</lang>
+          </row>
+        </item>
+        <item name="40020" status="0" id="40020">
+          <row name="Text" status="0">
+            <native>&amp;List</native>
+            <lang id="de" status="3">Liste</lang>
+          </row>
+        </item>
+        <item name="40021" status="0" id="40021">
+          <row name="Text" status="0">
+            <native>&amp;Details</native>
+            <lang id="de" status="3">Details</lang>
+          </row>
+        </item>
+        <item name="#0_3" status="0">
+        </item>
+        <item name="40022" status="0" id="40022" option="128">
+          <row name="Text" status="0">
+            <native>&amp;Refresh</native>
+            <lang id="de" status="3">Aktualisieren</lang>
+          </row>
+        </item>
+        <item name="#0_4" status="0" option="144">
+          <row name="Text" status="0">
+            <native>&amp;Help</native>
+            <lang id="de" status="3">Hilfe</lang>
+          </row>
+        </item>
+        <item name="40002" status="0" id="40002">
+          <row name="Text" status="0">
+            <native>&amp;Documentation</native>
+            <lang id="de" status="3">Dokumentation</lang>
+          </row>
+        </item>
+        <item name="#0_5" status="0">
+        </item>
+        <item name="40003" status="0" id="40003" option="128">
+          <row name="Text" status="0">
+            <native>&amp;About Cracklock</native>
+            <lang id="de" status="3">Über Cracklock</lang>
+          </row>
+        </item>
+      </node>
+      <node name="103" class="TWinBinaryMenuNode" reskind="rkMenu" resid="103">
+        <item name="0" status="0" option="144">
+        </item>
+        <item name="40004" status="0" id="40004" option="1">
+          <row name="Text" status="0">
+            <native>&amp;Run...</native>
+            <lang id="de" status="2">Ausführen...</lang>
+          </row>
+        </item>
+        <item name="40011" status="0" id="40011" option="1">
+          <row name="Text" status="0">
+            <native>Delete</native>
+            <lang id="de" status="2">Löschen</lang>
+          </row>
+        </item>
+        <item name="40005" status="0" id="40005" option="129">
+          <row name="Text" status="0">
+            <native>&amp;Configure...</native>
+            <lang id="de" status="2">Konfigurieren...</lang>
+          </row>
+        </item>
+      </node>
+    </node>
+    <node name="Strings" class="TWinBinaryStringFolder">
+      <node name="1" class="TWinBinaryStringNode">
+        <row name="1">
+          <native>English</native>
+          <lang id="de" status="3">Deutsch</lang>
+        </row>
+        <row name="10">
+          <native>Help</native>
+          <lang id="de" status="3">Hilfe</lang>
+        </row>
+        <row name="11">
+          <native>&amp;Advanced</native>
+          <lang id="de" status="3">Erweitert</lang>
+        </row>
+        <field name="12">http://william.famille-blum.org/</field>
+        <row name="13">
+          <native>cracklock-en.chm</native>
+          <old>html\help.htm</old>
+          <lang id="de" status="3">cracklock-de.chm</lang>
+        </row>
+        <row name="14">
+          <native>&amp;Start with Cracklock</native>
+          <lang id="de" status="3">Mit Cracklock starten</lang>
+        </row>
+        <row name="15">
+          <native>Click here if you want to run this program under the control of Cracklock</native>
+          <lang id="de" status="3">Hier klicken, um das Program unter der Kontrolle von Cracklock auszuführen</lang>
+        </row>
+        <row name="2">
+          <native>You need these files to use properly this application/library :</native>
+          <lang id="de" status="3">Sie benötigen diese Dateien, um diese Anwendung/Bibliothek zu benutzen:</lang>
+        </row>
+        <row name="3">
+          <native>Select the file which will active Cracklock :</native>
+          <lang id="de" status="3">Wählen Sie die Datei, die Cracklock aktivieren soll:</lang>
+        </row>
+        <row name="4">
+          <native>Add Program</native>
+          <lang id="de" status="3">Programm hinzufügen</lang>
+        </row>
+        <field name="5">rundll32 CLSHEX.DLL,RestoreLFN</field>
+        <field name="6">MicroBest Cracklock LFN Restoration</field>
+        <row name="7">
+          <native>General</native>
+          <lang id="de" status="3">Allgemein</lang>
+        </row>
+        <row name="8">
+          <native>Options</native>
+          <lang id="de" status="3">Optionen</lang>
+        </row>
+        <row name="9">
+          <native>Dependency</native>
+          <lang id="de" status="3">Abhängigkeit</lang>
+        </row>
+      </node>
+      <node name="2" class="TWinBinaryStringNode">
+        <row name="16">
+          <native>File not found !</native>
+          <lang id="de" status="3">Datei nicht gefunden</lang>
+        </row>
+        <row name="17">
+          <native>None</native>
+          <lang id="de" status="3">Keine</lang>
+        </row>
+        <row name="18" status="3">
+          <native>check it if you want cracklock to not modify any file</native>
+          <old>check it if you want cracklock not modifying any file</old>
+          <lang id="de" status="3">Auswählen, wenn Cracklock keine Dateien ändern soll</lang>
+        </row>
+        <row name="19">
+          <native>The file you have selected is not a valid Windows 32 bits executable file !</native>
+          <lang id="de" status="3">Die ausgewählte Datei ist keine gültige 32 bit Windows-Anwendung!</lang>
+        </row>
+        <row name="20">
+          <native>Can't run the specified program !</native>
+          <lang id="de" status="3">Das Programm kann nicht ausgeführt werden!</lang>
+        </row>
+        <row name="21">
+          <native>mailto:NOMAIL@ANYMORE.SORRY?subject=[Cracklock %s %s]</native>
+          <lang id="de" status="3">mailto:NOMAIL@ANYMORE.SORRY?subject=[Cracklock %s %s]</lang>
+        </row>
+        <row name="22">
+          <native>Language</native>
+          <lang id="de" status="3">Sprache</lang>
+        </row>
+        <row name="23">
+          <native>Programs (*.EXE)|*.EXE|All files (*.*)|*.*|</native>
+          <lang id="de" status="3">Programme (*.EXE)|*.EXE|Alle Dateien (*.*)|*.*|</lang>
+        </row>
+        <row name="24">
+          <native>Name</native>
+          <lang id="de" status="3">Name</lang>
+        </row>
+        <row name="25">
+          <native>Directory</native>
+          <lang id="de" status="3">Verzeichnis</lang>
+        </row>
+        <row name="26">
+          <native>Date/time</native>
+          <lang id="de" status="3">Datum/Uhrzeit</lang>
+        </row>
+        <row name="27">
+          <native>Cracklock Manager</native>
+          <lang id="de" status="3">Cracklock-Manager</lang>
+        </row>
+        <row name="28">
+          <native>manager.htm</native>
+          <old>html\manager.htm</old>
+          <lang id="de" status="3">manager.htm</lang>
+        </row>
+        <row name="29">
+          <native>howtosetup.htm</native>
+          <old>html\howtosetup.htm</old>
+          <lang id="de" status="3">howtosetup.htm</lang>
+        </row>
+        <row name="30">
+          <native>DEVELOPMENT#L&amp;&amp; DOCUMENTATION#L#LWilliam Blum#L#L#LDOCUMENTATION#LTRANSLATIONS#L#LDominique Blum#L(English)#L#LErnesto Pérez Estévez#L(Spanish)#L#L#LTRANSLATION#L#LWilliam Blum#L(English)#L#LErnesto Pérez Estévez#L(Spanish)#L#LSvetislav Orlovic#L(Croatian)#L#LTarik Kallida#L(Arabic)#L#LSu-Hee Choi#L(Korean)#L#LQianhan Lin#L(Simplified Chinese)#L\n</native>
+          <old>DEVELOPMENT#N&amp;&amp; DOCUMENTATION#N#NWilliam Blum#N#N#NDOCUMENTATION#NTRANSLATIONS#N#NDominique Blum#N(English)#N#NErnesto Pérez Estévez#N(Spanish)#N#N#NTRANSLATION#N#NWilliam Blum#N(English)#N#NErnesto Pérez Estévez#N(Spanish)#N#NSvetislav Orlovic#N(Croatian)#N#NTarik Kallida#N(Arabic)#N#N#N#NSu-Hee Choi#N(Korean)#N#N#N</old>
+          <lang id="de" status="3">ENTWICKLUNG #N&amp;&amp; DOKUMENTATION#N#NWilliam Blum#N#N#NDOKUMENTATION/#NÜBERSETZUNG#N#NDominique Blum#N(Englisch)#N#NErnesto Pérez Estévez#N(Spanisch)#N#N#NÜBERSETZUNG#N#NWilliam Blum#N(Englisch)#N#NErnesto Pérez Estévez#N(Spanisch)#N#NSvetislav Orlovic#N(Kroatisch)#N#NTarik Kallida#N(Arabisch)#N#NSu-Hee Choi#N(Korean)#N#NQianhan Lin#N(Simplified Chinese)#N\n</lang>
+        </row>
+        <row name="31">
+          <native>Do you want to remove cracklock applications settings from the registry ?</native>
+          <lang id="de" status="3">Wollen Sie die Cracklock-Einstellungen aus der Registrierung entfernen?</lang>
+        </row>
+      </node>
+      <node name="3" class="TWinBinaryStringNode">
+        <field name="32">3.8.5</field>
+        <row name="33">
+          <native>Arial,10</native>
+          <old>Arial,12</old>
+          <lang id="de" status="3">Arial, 10</lang>
+        </row>
+      </node>
+    </node>
+    <node name="Versions" class="TWinBinaryVersionFolder">
+      <node name="1" class="TWinBinaryVersionNode" reskind="rkVersion" resid="1">
+        <row name="CompanyName" enabled="0" hidden="1">William Blum</row>
+        <row name="FileDescription" enabled="0" hidden="1">Localized resources for Cracklock </row>
+        <field name="FileVersion">3.8.5</field>
+        <row name="InternalName" enabled="0" hidden="1">CLRES</row>
+        <row name="LegalCopyright" enabled="0" hidden="1">Copyright © William Blum 1998-2005</row>
+        <field name="LegalTrademarks"> </field>
+        <field name="OriginalFilename">CLRESUS.dll</field>
+        <field name="PrivateBuild"> </field>
+        <row name="ProductName" enabled="0" hidden="1">Cracklock</row>
+        <field name="ProductVersion">3.8.5</field>
+        <field name="SpecialBuild"> </field>
+      </node>
+    </node>
+  </target>
+  <validator filename="cracklock.xml">
+  </validator>
+</document>

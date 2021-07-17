@@ -1,0 +1,80 @@
+<HTML>
+<HEAD><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cracklock documentation">
+<param name="Local" value="index.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Introduction">
+<param name="Local" value="index.html#id1711941"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's new ?">
+<param name="Local" value="index.html#id1711971"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Features">
+<param name="Local" value="index.html#id1711986"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Installation">
+<param name="Local" value="index.html#id1712007"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Uninstallation">
+<param name="Local" value="index.html#id1712020"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Usage">
+<param name="Local" value="index.html#id1712032"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How does it work?">
+<param name="Local" value="index.html#id1712036"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting up an application for Cracklock">
+<param name="Local" value="index.html#configuration"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Adding applications">
+<param name="Local" value="index.html#id1712088"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configurating a program for use with Cracklock">
+<param name="Local" value="index.html#id1712102"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring your applications from the Explorer">
+<param name="Local" value="index.html#id1712140"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Advanced options">
+<param name="Local" value="index.html#id1712193"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Starting an application">
+<param name="Local" value="index.html#id1712237"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Examples">
+<param name="Local" value="index.html#id1712300"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Known limitations">
+<param name="Local" value="index.html#id1712354"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Miscellaneous">
+<param name="Local" value="index.html#id1712373"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EULA">
+<param name="Local" value="index.html#id1712376"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Acknowledgment">
+<param name="Local" value="index.html#id1712387"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Important note">
+<param name="Local" value="index.html#id1712403"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Contact">
+<param name="Local" value="index.html#id1712409"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Change logs">
+<param name="Local" value="index.html#changelog"></OBJECT></LI>
+</UL></UL>
+</BODY></HTML>

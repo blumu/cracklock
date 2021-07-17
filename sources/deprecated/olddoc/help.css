@@ -1,0 +1,583 @@
+.subsectionlink{
+	color: #005FA9;
+	text-decoration: none;
+	font-size: 80%;
+}
+.source { font-family: "Courier New", Courier, mono; }
+.date {	color: #660000; }
+
+
+
+  #g_title p, #g_footer p, #g_description p {
+    margin: 0;
+  }
+
+
+
+  /*
+
+  	-- -- -- -- -- -- --
+  	Browser Fixes
+  	-- -- -- -- -- -- --
+  	
+  	This file uses CSS filtering methods to fix various
+  	layout bugs.
+
+  	Each of the following three imported files is a
+  	separate, browser-specific CSS file that keeps all
+  	hacks out of the main style sheet.
+  	
+  	Over time, as supporting these browsers no longer
+  	remains a priority, cleaning up the hacks is as
+  	easy as deleting the @import statement below, or
+  	simply no longer linking this file from the HTML.
+  	
+  */
+
+  /*
+    fix ie6 "peekaboo bug" using the "holly hack".
+    Note, this style only gets applied to ie6
+  */
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+  /*
+   * IE5 mac - overrides the IE/Win hack
+   */
+
+  /*\*//*/
+
+  * html #threecolumn div {
+  	height: auto;
+  }
+
+  /**/
+
+
+  /*
+   * IE5/Win-specific CSS -ensures #container wraps all content on window resize
+   */
+
+  @media tty {
+   i{content:"\";/*" "*/}} * html #container { height: 1%; } /*";}
+  }/* */
+  /* Styling for editable elements. Eventually, this will be part of the style. */
+  .editable {
+    border: 1px dashed blue;
+  }
+
+  #footer {
+    clear: both;
+  }
+
+  /* Extra divs hidden by default. The custom CSS can override this though */
+  #extraDiv1, #extraDiv2, #extraDiv3, #extraDiv4, #extraDiv5, #extraDiv6 {
+    display: none;
+  }
+
+
+/*body { } */
+  #container {
+    width: 820px; 
+    text-align: left;
+    float: left;
+    margin: 0 auto;
+  }
+  #main-content {
+	margin: 0 10em .6em -12.2em;
+    float: right;
+    width: 650px;
+  }
+  #sidebar {
+    float: left;
+    width: 100px;
+  }
+  #footer {
+    clear: both;
+  }
+  
+  /** BEGIN CUSTOM SKIN **/
+  /* general layout */
+
+  body {
+    font-family: Verdana, Lucida Grande, Lucida Sans Unicode,  Helvetica, Arial, sans-serif;
+    font-size: small;
+	line-height: 1.166;	
+/*   margin: 2em; */
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;    
+    padding: 0em;
+    border-top: 0em;
+/*    border-top: 1em solid #e2e6ec; */
+    background: url(fond.jpg) repeat;
+  }
+  body div#container {
+    padding: 0em;
+    margin-top: 0em;
+    border-top: 1px solid #e2e6ec; /* a hack: without it Firefox adds top margin in layouts with sidebar */
+/*    background: url(/-/includes/style/madison/madison-one/container-top.gif) top no-repeat; */
+  }
+  div#container div.wrapper {
+    padding: 0em;
+    margin: 0em;
+  }
+  div#header {
+    padding: 0em 35px;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    _padding-bottom: 1em; /* hack for IE6 */
+    margin: 0em;
+    margin-top: 0em;
+	/*background:  url(common/bandeau.png);*/
+    /* background: url(/-/includes/style/madison/madison-one/header-fill.gif) repeat-y; */
+  }
+  div#header div.wrapper {
+    padding: 0em;
+    margin: 0em;
+  }
+  
+  div#main-content {
+    line-height: 100%;
+    color: #3f3f3f;
+/*    background: url(/-/includes/style/madison/madison-one/content-top.gif) top no-repeat; */
+    background: white;
+	color: black;
+	border: 1px solid #aaa;
+	/*border-right: none; */
+	line-height: 1.5em;
+  }
+
+
+
+  div#sidebar,div#sidebar-alternate {
+    font-size: 83%;
+    line-height: 100%;
+    color: #3f3f3f;
+/*    background: url(/-/includes/style/madison/madison-one/content-top.gif) top no-repeat;*/
+    padding: 0em;
+    margin: 0em;
+    padding-top: 1.5em;
+  }
+  div#footer {
+    margin-top: 2em;
+/*    background: url(/-/includes/style/madison/madison-one/content-top.gif) top no-repeat; */
+    padding: 1em 35px;
+/*    color: #7f7f7f; */
+  }*/
+  div#footer hr { /* I don't like this, but I have no idea why that <hr> is there */
+    display: none;
+  }
+
+  /* adjusting widths for different layouts */
+
+  body#onecolumn div#main-content {
+    padding: 0em 35px;
+    width: 648px;
+  }
+  
+  body#twocolumn-right div#main-content {
+    padding: 0em 25px;
+    width: 420px;
+    margin-left: 10px;
+  }
+  body#twocolumn-right div#sidebar {
+    padding-right: 15px;
+    width: 215px;
+  }
+  
+  body#twocolumn-left div#main-content {
+    padding: 10px 1em;
+    width: 680px;
+    margin-right: -20px; 
+	margin-top: -15px;
+    display: inline;
+  }
+  body#twocolumn-left div#sidebar {
+    padding-left: 20px;
+    width: 100px;
+  }
+  
+
+  
+  
+  body#threecolumn div#main-content {
+    padding: 0em 25px;
+    width: 370px;
+  }
+  body#threecolumn div#sidebar {
+    padding-left: 15px;
+    width: 125px;
+    margin-left: 10px;
+    display: inline;
+  }
+  body#threecolumn div#sidebar-alternate {
+    padding-right: 15px;
+    width: 125px;
+  }
+
+  /* general styles: headings */
+  h1, h2, h3, h4, h5, h6, p.description {
+    font-family: Verdana, Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  }
+  h1 {
+    font-size: 160%;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid #b3e6e6;
+    padding-bottom: 0.2em;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 300%; /* for padding below, the above line took away other possibilities */
+  }
+  h2 {
+    font-size: 120%;
+    font-weight: normal;
+    color: black;
+    border-bottom: 2px solid #b3e6e6;
+    padding-bottom: 0.2em;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 300%; /* for padding below, the above line took away other possibilities */
+  }
+  h3 {
+    font-size: 100%;
+    font-weight: normal;
+    border-bottom: 1px solid #0000FF;
+    padding-bottom: 0.2em;
+    color: black;
+    display: inline;   /* so that the underline spans only text width, and not the entire page */
+    line-height: 200%; /* for padding below, the above line took away other possibilities */
+  }
+  h4 {
+    font-size: 100%;
+    font-weight: bold;
+   /* border-bottom: 1px solid #b3e6e6; */
+    padding-bottom: 0.2em;
+    color: black;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 200%; /* for padding below, the above line took away other possibilities */
+  }
+  h5 {
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    display: inline;
+  }
+  h6 {
+    font-size: 100%;
+    font-weight: normal;
+    color: black;
+    display: inline;
+  }
+  hr {
+    background: white;
+    height: 1px;
+    border: 0em;
+    border-top: 1px solid #b3e6e6;
+    margin: 1em 0em;
+  }
+
+  /* general styles: links */
+ /* a {
+    color: #125ebc;
+    text-decoration: none;
+    border: none;
+     this underline is further away from the text = more legibility
+    border-bottom: 1px solid #125ebc;
+  }
+  a:visited {
+    color: #005FA9;
+    text-decoration: none;
+    border: none;
+      color: #638bbc; 
+     this underline is further away from the text = more legibility 
+    border-bottom: 1px solid #638bbc; 
+  }*/
+
+
+	a img, :link img, :visited img {
+	border: none;border-bottom: 0;
+	} 
+
+	a {
+		text-decoration: none;
+		color: #005FA9;
+		background: none;
+	 border: none;
+
+	}
+	/*a:visited {
+		color: #5a3696;
+	}*/
+	a:active {
+		color: #faa700;
+	}
+	a img:hover {
+		text-decoration: none;
+		border-bottom: 0;
+	}
+	a:hover {
+		color: #faa700;
+		text-decoration: none;
+	}
+
+
+
+	a.stub {
+		/*color: #772233;*/
+	}
+	a.new {
+	/*	color: #ba0000;*/
+	}
+
+	/*a.new:visited {
+		color: #a55858;
+	}*/
+
+
+
+  /* general styles: lists */
+
+  ul, ol {
+    margin-left: 1.8em;
+    padding: 0em;
+  }
+  dt {
+    margin-left: 1.8em;
+  }
+  blockquote {
+    margin-left: 1.8em;
+  }
+
+  /* general styles: tables */
+
+/*  table {
+    border-collapse: collapse; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -0.6em;
+    margin-right: -0.6em;
+  }
+
+  table td,table th {
+    padding: 0.3em 0.6em;
+    vertical-align: top;
+    text-align: left;
+  }
+  table th {
+    border-bottom: 1px solid #b3e6e6;
+  }
+  */
+  table caption {
+    text-align: left;
+    font-weight: normal;
+    color: #4FBBBB;
+    padding: 0em;
+    _padding: 0em 0.6em; /* hack for IE6: it understands padding differently here */
+  }
+
+  /* specific styles */
+
+  h1#page-title {
+    font-size: 180%;
+    font-weight: normal;
+    color: #125ebc;
+    letter-spacing: -1px;
+    display: block;
+    border: 0em;
+    padding: 0em;
+    margin: 0em;
+    line-height: 100%;
+  }
+  div#g_description {
+    font-size: 140%;
+    font-weight: normal;
+    color: #125ebc;
+  }
+
+  /* correcting horizontal margins for different layouts */
+
+  body#twocolumn-left div#header, body#threecolumn div#header {
+    padding-left: 25px;
+  }
+
+  /** END CUSTOM SKIN **/
+
+
+
+
+
+.log h2 {
+	/* background: #ffae2e; 
+	border: 1px solid #2f6fab;*/
+	border-style: none;
+	padding: 0 10px 0 5px;
+	text-transform: lowercase;
+	display: block;
+	font-size: 100%;
+	color: green;
+	height: 1.5em;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.content h3 {
+	/* background: #ffae2e; 
+	border: 1px solid #2f6fab;*/
+	border-style: none;
+	padding: 0 0 0 0;
+	display: block;
+	font-size: 100%;
+	/*color: green;*/
+	height: 1em;
+	font-weight: normal;
+	white-space: nowrap;
+	margin-top:3px;
+	margin-bottom:0;
+}
+.log ul {
+	line-height: 1.5em;
+	list-style-type: square;
+	list-style-image: url(bullet.gif);
+	font-size: 95%;
+}
+.log li {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+/*
+** general portlet styles (elements in the quickbar)
+*/
+.portlet {
+	border: none;
+	margin: 0 0 .5em;
+	padding: 0;
+	float: none;
+/*width: 18em;*/
+	overflow: hidden;
+}
+.portlet h4 {
+	font-size: 95%;
+	font-weight: normal;
+	white-space: nowrap;
+}
+.portlet h5 {
+	background: transparent;
+	padding: 0 1em 0 .5em;
+	display: inline;
+	height: 1em;
+	text-transform: lowercase;
+	font-size: 91%;
+	font-weight: normal;
+	white-space: nowrap;
+}
+.portlet h6 {
+	background: #ffae2e;
+	border: 1px solid #2f6fab;
+	border-style: solid solid none solid;
+	padding: 0 1em 0 1em;
+	text-transform: lowercase;
+	display: block;
+	font-size: 1em;
+	height: 1.2em;
+	font-weight: normal;
+	white-space: nowrap;
+}
+.pBody {
+	font-size: 95%;
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	border: 1px solid #aaa;
+	padding: 0 .8em .3em .5em;
+}
+.portlet h1,
+.portlet h2,
+.portlet h3,
+.portlet h4 {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+#mytable {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+td.nobg {
+	border-right: 0;
+	border-bottom: 0;
+	background: none;
+	padding: 0px 0px 0px 0px;
+	color: #4f6b72;
+}
+
+th.filename {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.filenamealt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}

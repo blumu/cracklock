@@ -1,0 +1,25 @@
+﻿Build started 03/12/2009 1:28:03 AM.
+     1>Project "C:\Users\William\Documents\Cracklock\Injector\Injector.vcxproj" on node 287 (build target(s)).
+     1>_PrepareForBuild:
+         Touching "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Injector\Injector.unsuccessfulbuild".
+       CustomBuild:
+         Description: Performing Custom Build Tools
+         build.cmd compile CLINJECT x64 Debug
+         
+         :VCEnd
+         Architecture:   x64
+         Configuration:  Debug
+         
+         '/c' is not recognized as an internal or external command,
+         operable program or batch file.
+         _
+         Error while assembling!
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\Bin\Injector.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Injector\Injector.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\Bin\Injector.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\Bin\Injector.lib" /MACHINE:X64 C:\Users\William\Documents\Cracklock\obj_x64_Debug\Injector\CLINJECT.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\Kernel\CLKERN.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'C:\Users\William\Documents\Cracklock\obj_x64_Debug\Injector\CLINJECT.obj'
+     1>Done Building Project "C:\Users\William\Documents\Cracklock\Injector\Injector.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

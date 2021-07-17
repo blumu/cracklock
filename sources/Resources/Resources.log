@@ -1,0 +1,26 @@
+﻿Build started 03/12/2009 12:57:13 AM.
+     1>Project "C:\Users\William\Documents\Cracklock\Resources\Resources.vcxproj" on node 235 (build target(s)).
+     1>_PrepareForBuild:
+         Creating directory "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\".
+         Creating "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\Resources.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _AMD64_ /D _WIN64 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D Resources_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\\" /Fd"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\\" /FR"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\\" /Gd /TP /analyze- /errorReport:prompt Resources.cpp
+         Resources.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\CLRESUS.res" CLRESUS.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\Languages\CLRESUS.dll" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /ManifestFile:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\CLRESUS.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\Languages\CLRESUS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllMain" /DYNAMICBASE:NO /IMPLIB:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\CLRESUS.lib" /MACHINE:X64 /DLL C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\CLRESUS.res
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\Resources.obj
+         Resources.vcxproj -> C:\Users\William\Documents\Cracklock\bin_x64_Debug\Languages\CLRESUS.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\CLRESUS.dll.embed.manifest" /outputresource:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\Languages\CLRESUS.dll;#2" /manifest C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\CLRESUS.dll.intermediate.manifest
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\Resources.bsc" C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\Resources.sbr
+       _AfterBuild:
+         Deleting file "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\Resources.unsuccessfulbuild".
+         Touching "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Resources\Resources.lastbuildstate".
+     1>Done Building Project "C:\Users\William\Documents\Cracklock\Resources\Resources.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91

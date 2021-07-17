@@ -1,0 +1,34 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\Cracklock-en.chm
+Contents file=english.hhc
+Default topic=welcome.htm
+Display compile progress=Yes
+Index file=english.hhk
+Language=0x809 Anglais (Royaume-Uni)
+Title=Cracklock Help in English
+
+
+[FILES]
+../fond.jpg
+../help.css
+acknow.htm
+advice1x2x.htm
+apprunning.htm
+contact.htm
+contents.htm
+examples.htm
+index.html
+howtosetup.htm
+history.html
+important_note.htm
+install.htm
+introduction.htm
+liability.htm
+limitations.htm
+manager.htm
+uninstall.htm
+welcome.htm
+
+[INFOTYPES]
+

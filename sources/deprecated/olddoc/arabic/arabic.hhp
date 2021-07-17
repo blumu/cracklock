@@ -1,0 +1,14 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\Cracklock-ar.chm
+Default topic=index.html
+Display compile progress=Yes
+Language=0x9ca8 
+Title=Cracklock
+
+
+[FILES]
+index.html
+
+[INFOTYPES]
+

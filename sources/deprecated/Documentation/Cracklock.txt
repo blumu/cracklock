@@ -1,0 +1,55 @@
+
+---  Cracklock
+
+---  OS:            NT4/2000/XP (32 bits - UNICODE)
+---  Version:       3.8.5
+---  Languages:     English, Français, Español
+---  Author:				William Blum
+---  Last revision: April, 30th 2005
+
+
+OVERVIEW
+========
+
+Cracklock is a utility which corrects a frequent bug that appears in a lot of sharewares : I've recently noticed that many sharewares seem to stop working after a limited period of time, frequently a 30 days period. This bug is so frequent that I use to call it "the 30th day virus"
+
+Thanks to Cracklock : no more problem !
+
+With this utility, you can assign a date, a time and some options to every program that runs under Windows 95/98/ME/NT4/2000. After that, no matter the actual day or time : these programs are bluffed and they believe to be at the dummy date/time you have assigned. The bug is bypassed, and your sharewares keep working without any period limit.
+
+CRACKLOCK IS FREEWARE : YOU'RE FREE TO DISTRIBUTE IT.
+
+Cracklock has been developed with Visual C++ 5.0.
+
+
+DOCUMENTATION
+=============
+
+Click on the 'Documentation' shortcut found in the 'Start menu'.
+This will launch your internet browser.
+
+
+INSTALLATION
+============
+
+* Unzip the file containing installation files.
+* Run the file called CKLKxx.EXE
+REMARK : If you have installed Cracklock 1.x or 2.x, you must first restore all programs modified by the old version, uninstall the old version and then reinstall the new version.
+
+
+HOW TO UNINSTALL
+=================
+
+In the control panel, choose "Add/Remove Programs", select "Cracklock x.x" in the list of programs and click on "Add/Remove".
+
+
+RESPONSIBILITY
+==============
+
+CAUTION : I'll take no responsibility on the use or consequences of the use of Cracklock.
+
+
+WEBSITE
+=======
+
+http://william.famille-blum.org/

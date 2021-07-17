@@ -1,0 +1,20 @@
+REGEDIT4
+[HKEY_CLASSES_ROOT\CLSID\{6EF84290-174B-11d1-B524-0080C8141490}\InProcServer32]
+@="c:\\documents\\Cracklock\\Release\\Bin\\CLSHEX.DLL"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\*\shellex\PropertySheetHandlers\Cracklock]
+@ = "{6EF84290-174B-11d1-B524-0080C8141490}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\Cracklock]
+@ = "{6EF84290-174B-11d1-B524-0080C8141490}"
+ 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved]
+@ = "Cracklock"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\MicroBest\Cracklock\3.0\Apps]
+@ = ""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\MicroBest\Cracklock\3.0\Settings]
+@ = ""
+

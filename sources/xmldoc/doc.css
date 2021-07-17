@@ -1,0 +1,225 @@
+.subsectionlink{
+	color: #005FA9;
+	text-decoration: none;
+	font-size: 80%;
+}
+.source { font-family: "Courier New", Courier, mono; }
+.date {	color: #660000; }
+
+.log h2 {
+	/* background: #ffae2e; 
+	border: 1px solid #2f6fab;*/
+	border-style: none;
+	padding: 0 10px 0 5px;
+	text-transform: lowercase;
+	display: block;
+	font-size: 100%;
+	color: green;
+	height: 1.5em;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+  body {
+    font-family: Verdana, Lucida Grande, Lucida Sans Unicode,  Helvetica, Arial, sans-serif;
+    font-size: small;
+	line-height: 1.166;	
+/*   margin: 2em; */
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;    
+    padding: 0em;
+    border-top: 0em;
+/*    border-top: 1em solid #e2e6ec; */
+    background: url(fond.jpg) repeat;
+  }
+
+
+
+  /* general styles: headings */
+  h1, h2, h3, h4, h5, h6, p.description {
+    font-family: Verdana, Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  }
+  h1 {
+    font-size: 180%;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid #b3e6e6;
+    padding-bottom: 0.2em;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 300%; /* for padding below, the above line took away other possibilities */
+  }
+  h2 {
+    font-size: 180%;
+    font-weight: normal;
+    color: black;
+    border-bottom: 2px solid #b3e6e6;
+    padding-bottom: 0.2em;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 300%; /* for padding below, the above line took away other possibilities */
+  }
+  h3 {
+    font-size: 160%;
+    font-weight: normal;
+    border-bottom: 1px solid #0000FF;
+    padding-bottom: 0.2em;
+    color: black;
+    display: inline;   /* so that the underline spans only text width, and not the entire page */
+    line-height: 200%; /* for padding below, the above line took away other possibilities */
+  }
+  h4 {
+    font-size: 150%;
+    font-weight: bold;
+   /* border-bottom: 1px solid #b3e6e6; */
+    padding-bottom: 0.2em;
+    color: black;
+    display: inline; /* so that the underline spans only text width, and not the entire page */
+    line-height: 200%; /* for padding below, the above line took away other possibilities */
+  }
+  h5 {
+    font-size: 140%;
+    font-weight: bold;
+    color: black;
+    display: inline;
+  }
+  h6 {
+    font-size: 130%;
+    font-weight: normal;
+    color: black;
+    display: inline;
+  }
+  hr {
+    background: white;
+    height: 1px;
+    border: 0em;
+    border-top: 1px solid #b3e6e6;
+    margin: 1em 0em;
+  }
+
+
+	a img, :link img, :visited img {
+	border: none;border-bottom: 0;
+	} 
+
+	a {
+		text-decoration: none;
+		color: #005FA9;
+		background: none;
+        border: none;
+
+	}
+	/*a:visited {
+		color: #5a3696;
+	}*/
+	a:active {
+		color: #faa700;
+	}
+	a img:hover {
+		text-decoration: none;
+		border-bottom: 0;
+	}
+	a:hover {
+		color: #faa700;
+		text-decoration: none;
+	}
+
+  /* general styles: lists */
+
+  ul, ol {
+    margin-left: 1.8em;
+    padding: 0em;
+  }
+  dt {
+    margin-left: 1.8em;
+  }
+  blockquote {
+    margin-left: 1.8em;
+  }
+
+  /* general styles: tables */
+
+  table caption {
+    text-align: left;
+    font-weight: normal;
+    color: #4FBBBB;
+    padding: 0em;
+    _padding: 0em 0.6em; /* hack for IE6: it understands padding differently here */
+  }
+
+
+ul {
+	line-height: 1.5em;
+	list-style-type: square;
+	list-style-image: url(bullet.gif);
+	font-size: 95%;
+}
+li {
+	padding: 0;
+	margin: 0;
+}
+
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+td.nobg {
+	border-right: 0;
+	border-bottom: 0;
+	background: none;
+	padding: 0px 0px 0px 0px;
+	color: #4f6b72;
+}
+
+th.filename {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.filenamealt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}

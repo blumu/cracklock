@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{086254b4-1b99-408c-b2c7-6baa1bdb6b32}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{9b88b67c-5eff-40bb-a474-b986b4f5e88f}</UniqueIdentifier>
+      <Extensions>.bmp;.ico;.rc;.ani</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{1cd02448-fa9b-4d49-8484-9ab8c72ec3ea}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icones\horlo.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\icon1.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\link.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\LSTchk.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\LSTfile.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\LSTgraychk.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\LSTloader.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\LSTunchk.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="icones\LSTwinsys.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="ShellExt.def">
+      <Filter>Sources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShellExt.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\INIReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\tz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlCalendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGRetry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabDepend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabMoreOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timezone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\Common.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\INIReg.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ListView.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CNode.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CNodes.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabSheet.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlCalendar.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlClock.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctxmenu.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGRetry.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLFuncs.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PETools.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellExt.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TabDepend.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TabGeneral.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TabHelp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TabMoreOptions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TabOptions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCtrl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Timezone.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CLSHEX.AMD64.dll.Manifest" />
+    <CustomBuild Include="CLSHEX.X86.dll.Manifest" />
+  </ItemGroup>
+</Project>

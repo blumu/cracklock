@@ -1,0 +1,44 @@
+
+The output directories are set as follows in the Visual Studio project files:
+
+
+== General
+Output Dir:
+$(SolutionDir)bin_$(PlatformName)_$(ConfigurationName)
+
+Intermediate:
+$(SolutionDir)obj_$(PlatformName)_$(ConfigurationName)\$(ProjectName)
+
+
+== C/C++:
+Object File Name
+$(IntDir)\
+
+Program Databae File name:
+$(IntDir)\
+
+PRecompiled Header:
+$(IntDir)/$(ProjectName).pch
+
+Browser information:
+$(IntDir)\
+
+== Linker:
+$(OutDir)/Bin/CLKERN.dll
+$(OutDir)/Bin/CLSHEX.dll
+$(OutDir)/Example/VCClock.exe
+$(OutDir)/Bin/CLMNGR.exe
+
+Import Library:
+$(IntDir)\$(TargetName).lib
+
+
+== Manifest
+$(IntDir)\$(TargetFileName).embed.manifest
+$(IntDir)\$(TargetFileName).embed.manifest.res
+
+== XML
+$(IntDir)\$(TargetFileName).xml
+
+== Browser information:
+$(IntDir)\$(ProjectName).bsc

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>2.00</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>PADManager 1.0.34</MASTER_PAD_EDITOR>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-0081136D542</Company_UIN>
+    <Product_UIN>APP-00811396AA2</Product_UIN>
+    <Search_String>Cracklock</Search_String>
+    <Search_String_Unique>Cracklock</Search_String_Unique>
+    <Publish_on_CD>FALSE</Publish_on_CD>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Additional_Categories></Additional_Categories>
+    <Program_Name_Aliases></Program_Name_Aliases>
+    <Ignore_Program_Name_Aliases></Ignore_Program_Name_Aliases>
+  </RoboSoft>
+  <Company_Info>
+    <Company_Name>William Blum</Company_Name>
+    <Address_1>Linacre College</Address_1>
+    <Address_2></Address_2>
+    <City_Town>Oxford</City_Town>
+    <State_Province></State_Province>
+    <Zip_Postal_Code>OX2 3JA</Zip_Postal_Code>
+    <Country>United Kingdom</Country>
+    <Company_WebSite_URL>http://william.famille-blum.org/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>William</Contact_First_Name>
+      <Contact_Last_Name>Blum</Contact_Last_Name>
+      <Contact_Email>no@email.com</Contact_Email>
+      <Author_First_Name>William</Author_First_Name>
+      <Author_Last_Name>Blum</Author_Last_Name>
+      <Author_Email></Author_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email></Sales_Email>
+      <Support_Email></Support_Email>
+      <General_Email></General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+  </Company_Info>
+  <ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>N</ASP_Member>
+    <ASP_Member_Number></ASP_Member_Number>
+  </ASP>
+  <OISV>
+    <OISV_FORM>Y</OISV_FORM>
+    <OISV_Member>N</OISV_Member>
+    <OISV_Member_Number></OISV_Member_Number>
+  </OISV>
+  <Program_Info>
+    <Program_Name>Cracklock</Program_Name>
+    <Program_Version>3.9.44</Program_Version>
+    <Program_Release_Month>3</Program_Release_Month>
+    <Program_Release_Day>09</Program_Release_Day>
+    <Program_Release_Year>2008</Program_Release_Year>
+    <Program_Cost_Dollars>0</Program_Cost_Dollars>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Release_Status>New Release</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>WinNT 4.x,WinXP,Windows2000,Windows2003,Vista</Program_OS_Support>
+    <Program_Language>English,Arabic,Chinese,Croatian,French,German,Hungarian,Korean,Portuguese,Serbo-Croatian,Spanish</Program_Language>
+    <Program_Specific_Category>Utilities</Program_Specific_Category>
+    <Program_Category_Class>Security &amp; Privacy::Anti-Virus Tools</Program_Category_Class>
+    <File_Info>
+      <File_Size_Bytes>1338019</File_Size_Bytes>
+      <File_Size_K>1307</File_Size_K>
+      <File_Size_MB>1.27</File_Size_MB>
+      <Filename_Versioned>Cracklock.3.9.44.exe</Filename_Versioned>
+      <Filename_Generic>Cracklock.exe</Filename_Generic>
+      <Filename_Previous></Filename_Previous>
+      <Filename_Long></Filename_Long>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Count></Expire_Count>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+      <Expire_Year></Expire_Year>
+    </Expire_Info>
+    <Includes_JAVA_VM>N</Includes_JAVA_VM>
+    <Includes_VB_Runtime>N</Includes_VB_Runtime>
+    <Includes_DirectX>N</Includes_DirectX>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Change_Info></Program_Change_Info>
+    <Program_System_Requirements></Program_System_Requirements>
+    <Limitations></Limitations>
+    <Awards></Awards>
+    <Program_Categories></Program_Categories>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://william.famille-blum.org/software/cracklock/index.html</Application_Info_URL>
+      <Application_Order_URL>http://william.famille-blum.org/software/cracklock/index.html</Application_Order_URL>
+      <Application_Screenshot_URL>http://william.famille-blum.org/software/cracklock/cracklock-screenshot.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://william.famille-blum.org/software/cracklock/cracklock_icon.png</Application_Icon_URL>
+      <Application_XML_File_URL>http://william.famille-blum.org/software/cracklock/cracklock-pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://william.famille-blum.org/software/cracklock/downloads/Cracklock.3.9.44.exe</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <EULA>- NO WARRANTY. The Software is being delivered to you "AS IS" and the Author makes no warranty as to its use or performance. The Author provides no technical support, warranties or remedies for the Software. THE AUTHOR AND ITS SUPPLIERS DO NOT AND CANNOT WARRANT THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE SOFTWARE. 
+
+- LIMITATION OF LIABILITY. IN NO EVENT WILL THE AUTHOR OF CRACKLOCK OR ITS SUPPLIERS BE LIABLE TO YOU FOR ANY DAMAGES, CLAIMS OR COSTS WHATSOEVER OR ANY CONSEQUENTIAL, INDIRECT, INCIDENTAL DAMAGES, OR ANY LOST PROFITS OR LOST SAVINGS.</EULA>
+    <Distribution_Permissions></Distribution_Permissions>
+  </Permissions>
+  <Simtel>
+    <Simtel_FORM>Y</Simtel_FORM>
+    <SIMTEL_FORM_VER>1.6 11/26/2002</SIMTEL_FORM_VER>
+    <Simtel_Platform>winnt - Windows NT / Windows 2000</Simtel_Platform>
+    <Simtel_Category>System utilities</Simtel_Category>
+  </Simtel>
+  <Delphi>
+    <D1>FALSE</D1>
+    <D2>FALSE</D2>
+    <D3>FALSE</D3>
+    <D4>FALSE</D4>
+    <D5>FALSE</D5>
+    <D6>FALSE</D6>
+    <D7>FALSE</D7>
+    <BCB1>FALSE</BCB1>
+    <BCB3>FALSE</BCB3>
+    <BCB4>FALSE</BCB4>
+    <BCB5>FALSE</BCB5>
+    <BCB6>FALSE</BCB6>
+    <K1>FALSE</K1>
+    <K2></K2>
+    <K3></K3>
+    <D1_URL></D1_URL>
+    <D2_URL></D2_URL>
+    <D3_URL></D3_URL>
+    <D4_URL></D4_URL>
+    <D5_URL></D5_URL>
+    <D6_URL></D6_URL>
+    <D7_URL></D7_URL>
+    <BCB1_URL></BCB1_URL>
+    <BCB3_URL></BCB3_URL>
+    <BCB4_URL></BCB4_URL>
+    <BCB5_URL></BCB5_URL>
+    <BCB6_URL></BCB6_URL>
+    <K1_URL></K1_URL>
+    <K2_URL></K2_URL>
+    <K3_URL></K3_URL>
+    <Type></Type>
+    <Price></Price>
+    <Source></Source>
+    <File_Location></File_Location>
+    <Link_URL></Link_URL>
+    <Download_URL></Download_URL>
+    <Version></Version>
+    <Notes></Notes>
+  </Delphi>
+  <PADRING>
+    <PADRING_FORM>N</PADRING_FORM>
+    <PADRING></PADRING>
+  </PADRING>
+  <Affiliates>
+    <Affiliates_FORM>Y</Affiliates_FORM>
+    <Affiliates_VERSION>1.1</Affiliates_VERSION>
+    <Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_Information_Page></Affiliates_Information_Page>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_DigiBuy_Order_Page></Affiliates_DigiBuy_Order_Page>
+    <Affiliates_DigiBuy_Vendor_ID></Affiliates_DigiBuy_Vendor_ID>
+    <Affiliates_DigiBuy_Product_ID></Affiliates_DigiBuy_Product_ID>
+    <Affiliates_DigiBuy_Maximum_Commission_Rate></Affiliates_DigiBuy_Maximum_Commission_Rate>
+    <Affiliates_DigitalCandle_Order_Page></Affiliates_DigitalCandle_Order_Page>
+    <Affiliates_DigitalCandle_Vendor_ID></Affiliates_DigitalCandle_Vendor_ID>
+    <Affiliates_DigitalCandle_Product_ID></Affiliates_DigitalCandle_Product_ID>
+    <Affiliates_DigitalCandle_Maximum_Commission_Rate></Affiliates_DigitalCandle_Maximum_Commission_Rate>
+    <Affiliates_Emetrix_Order_Page></Affiliates_Emetrix_Order_Page>
+    <Affiliates_Emetrix_Vendor_ID></Affiliates_Emetrix_Vendor_ID>
+    <Affiliates_Emetrix_Product_ID></Affiliates_Emetrix_Product_ID>
+    <Affiliates_Emetrix_Maximum_Commission_Rate></Affiliates_Emetrix_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_NorthStarSol_Order_Page></Affiliates_NorthStarSol_Order_Page>
+    <Affiliates_NorthStarSol_Vendor_ID></Affiliates_NorthStarSol_Vendor_ID>
+    <Affiliates_NorthStarSol_Product_ID></Affiliates_NorthStarSol_Product_ID>
+    <Affiliates_NorthStarSol_Maximum_Commission_Rate></Affiliates_NorthStarSol_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Osolis_Order_Page></Affiliates_Osolis_Order_Page>
+    <Affiliates_Osolis_Vendor_ID></Affiliates_Osolis_Vendor_ID>
+    <Affiliates_Osolis_Product_ID></Affiliates_Osolis_Product_ID>
+    <Affiliates_Osolis_Maximum_Commission_Rate></Affiliates_Osolis_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+    <Affiliates_V-Share_Order_Page></Affiliates_V-Share_Order_Page>
+    <Affiliates_V-Share_Vendor_ID></Affiliates_V-Share_Vendor_ID>
+    <Affiliates_V-Share_Product_ID></Affiliates_V-Share_Product_ID>
+    <Affiliates_V-Share_Maximum_Commission_Rate></Affiliates_V-Share_Maximum_Commission_Rate>
+    <Affiliates_VFree_Order_Page></Affiliates_VFree_Order_Page>
+    <Affiliates_VFree_Vendor_ID></Affiliates_VFree_Vendor_ID>
+    <Affiliates_VFree_Product_ID></Affiliates_VFree_Product_ID>
+    <Affiliates_VFree_Maximum_Commission_Rate></Affiliates_VFree_Maximum_Commission_Rate>
+    <Affiliates_Yaskifo_Order_Page></Affiliates_Yaskifo_Order_Page>
+    <Affiliates_Yaskifo_Vendor_ID></Affiliates_Yaskifo_Vendor_ID>
+    <Affiliates_Yaskifo_Product_ID></Affiliates_Yaskifo_Product_ID>
+    <Affiliates_Yaskifo_Maximum_Commission_Rate></Affiliates_Yaskifo_Maximum_Commission_Rate>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM>Y</NewsFeed_FORM>
+    <NewsFeed_VERSION>1.0</NewsFeed_VERSION>
+    <NewsFeed_URL>http://Submit-Everywhere.com/extensions/NewsFeed.htm</NewsFeed_URL>
+    <NewsFeed_DESCRIPTION>This PAD extension allows you to add your RSS and Atom news feeds info into your PAD file. This info can be used by RSS feed submission software or by feed directories themselves.</NewsFeed_DESCRIPTION>
+    <NewsFeed_Type>RSS 0.90</NewsFeed_Type>
+    <NewsFeed_Language>English</NewsFeed_Language>
+    <NewsFeed_Purpose>News</NewsFeed_Purpose>
+    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
+    <NewsFeed_Site_Name></NewsFeed_Site_Name>
+    <NewsFeed_Site_URL></NewsFeed_Site_URL>
+    <NewsFeed_Author_First_Name></NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name></NewsFeed_Author_Last_Name>
+    <NewsFeed_Author_Email></NewsFeed_Author_Email>
+    <NewsFeed_Title></NewsFeed_Title>
+    <NewsFeed_Description_70></NewsFeed_Description_70>
+    <NewsFeed_Description_250></NewsFeed_Description_250>
+  </NewsFeed>
+  <OnlineShops>
+    <OnlineShops_FORM>Y</OnlineShops_FORM>
+    <OnlineShops_VERSION>1.0</OnlineShops_VERSION>
+    <OnlineShops_URL>http://Submit-Everywhere.com/extensions/OnlineShops.htm</OnlineShops_URL>
+    <OnlineShops_DESCRIPTION>This PAD extension allows you to check these sites distribution agreements and decide wether you wish to sell your product through them</OnlineShops_DESCRIPTION>
+    <OnlineShops_PalmGear></OnlineShops_PalmGear>
+    <OnlineShops_PocketLand></OnlineShops_PocketLand>
+    <OnlineShops_PDAssi></OnlineShops_PDAssi>
+    <OnlineShops_PDATopSoft></OnlineShops_PDATopSoft>
+    <OnlineShops_PocketGear></OnlineShops_PocketGear>
+    <OnlineShops_Softonic></OnlineShops_Softonic>
+    <OnlineShops_Winowin></OnlineShops_Winowin>
+    <OnlineShops_Handango_Agreement></OnlineShops_Handango_Agreement>
+    <OnlineShops_Handango></OnlineShops_Handango>
+  </OnlineShops>
+  <Press_Release>
+    <Press_Release></Press_Release>
+    <Headline></Headline>
+  </Press_Release>
+  <ESC>
+    <ESC_FORM></ESC_FORM>
+  </ESC>
+  <Program_Descriptions>
+    <English>
+      <Keywords>Y2k bug, 30th-day virus, time bomb, outlook timezone bug</Keywords>
+      <Char_Desc_45>Protection against the 30th-day virus.</Char_Desc_45>
+      <Char_Desc_80>Cracklock protects you from the 30th-day virus.</Char_Desc_80>
+      <Char_Desc_250>Cracklock protects you from the 30th-day virus by allowing you to change the system date and time on a per-application basis. It can also be used to test conformity against the ever-threatening Y10K bug.</Char_Desc_250>
+      <Char_Desc_2000>Cracklock is the leader in the hard task of repairing a bug present in a growing number of sharewares and exploited by a polymorph virus known as the "30th day" virus. As its name implies, the virus manifests itself only once you have run the infected software for a certain period of time; usually 30 days suffice to trigger it. To protect these buggy sharewares from this virus, Cracklock uses techniques that other anti-virus vendors such as McAfee, Norton, Sophos, Thunderbyte and F-Proot seem to ignore.
+
+Also, many developers have used Cracklock in the past to test their softwares for Y2K compliance. Recently, we have worked hard adapting Cracklock to the well kwown Y10K bug (aka "bug of the year 10000"). Developers can now use Cracklock to test conformity of their programs against this ever-threatening bug.</Char_Desc_2000>
+      <Char_Desc_450></Char_Desc_450>
+    </English>
+  </Program_Descriptions>
+</XML_DIZ_INFO>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{71f10ebb-6bf0-4589-b3d2-f326fae3f481}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4afbf3e8-21b4-44eb-b607-39d8945ccc82}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fb79a5f1-1340-4beb-be60-45c2d97551fb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ShellExt\Timezone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bitmaps\creditsdroits.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\creditsgauche.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\fingenerique.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\fondcredits.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\horloge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmaps\tetes.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icones\absent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icones\add.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icones\app2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icones\default.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icones\id_help.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icones\Manager.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Manager.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Manager.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Resources\resources.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="csprite.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Clmngr.AMD64.exe.manifest">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Clmngr.x86.exe.manifest">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

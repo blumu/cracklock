@@ -1,0 +1,90 @@
+﻿Build started 03/12/2009 1:28:03 AM.
+     1>Project "C:\Users\William\Documents\Cracklock\ShellExt\ShellExt.vcxproj" on node 286 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _AMD64_ /D _WIN64 /D WIN32 /D _DEBUG /D _WINDOWS /D UNICODE /D _UNICODE /D __UNICODE /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.pch" /Fo"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\\" /Fd"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\vc100.pdb" /FR"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\\" /Gd /TP /analyze- /errorReport:prompt CtrlCalendar.cpp CtrlClock.cpp DLLMain.cpp TabOptions.cpp TimeCtrl.cpp
+         CtrlClock.cpp
+         CtrlCalendar.cpp
+         Generating Code...
+         Compiling...
+         TimeCtrl.cpp
+         TabOptions.cpp
+         DLLMain.cpp
+         Generating Code...
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.dll" /VERSION:"1.0" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib comctl32.lib Version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ShellExt.def" /MANIFEST /ManifestFile:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE:NO /IMPLIB:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.lib" /MACHINE:X64 /DLL C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.res
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CNode.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CNodes.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\Common.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CTabSheet.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CtrlCalendar.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CtrlClock.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\Ctxmenu.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\DLGRetry.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\DLLFuncs.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\DLLMain.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\INIReg.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ListView.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\PETools.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\StdAfx.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabDepend.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabGeneral.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabHelp.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabMoreOptions.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabOptions.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TimeCtrl.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\Timezone.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.embed.manifest.res
+         ShellExt.vcxproj -> C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.embed.manifest" /manifest C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.embed.manifest.res" C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.dll" /VERSION:"1.0" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib comctl32.lib Version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ShellExt.def" /MANIFEST /ManifestFile:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE:NO /IMPLIB:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.lib" /MACHINE:X64 /DLL C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.res
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CNode.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CNodes.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\Common.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CTabSheet.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CtrlCalendar.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\CtrlClock.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\Ctxmenu.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\DLGRetry.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\DLLFuncs.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\DLLMain.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\INIReg.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ListView.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\PETools.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\StdAfx.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabDepend.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabGeneral.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabHelp.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabMoreOptions.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TabOptions.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\TimeCtrl.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\Timezone.obj
+         C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.dll.embed.manifest.res
+         ShellExt.vcxproj -> C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.dll
+       BscMake:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         Description: Maj l'entrée de la classe "Cracklock" dans la registry...
+         rem perl C:\Users\William\Documents\Cracklock\ShellExt\shellreg.pl C:\Users\William\Documents\Cracklock\bin_x64_Debug\bin\ShellExt.dll
+         :VCEnd
+       _AfterBuild:
+         Deleting file "C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.unsuccessfulbuild".
+         Touching "C:\Users\William\Documents\Cracklock\obj_x64_Debug\ShellExt\ShellExt.lastbuildstate".
+     1>Done Building Project "C:\Users\William\Documents\Cracklock\ShellExt\ShellExt.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98

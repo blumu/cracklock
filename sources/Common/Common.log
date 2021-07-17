@@ -1,0 +1,23 @@
+﻿Build started 03/12/2009 1:14:40 AM.
+     1>Project "C:\Users\William\Documents\Cracklock\Common\Common.vcxproj" on node 242 (build target(s)).
+     1>_PrepareForBuild:
+         Touching "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _AMD64_ /D _WIN64 /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.pch" /Fo"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\\" /Fd"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Common.cpp
+         Common.cpp
+     1>Common.cpp(853): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>Common.cpp(909): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+         All outputs are up-to-date.
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.lib" Version.lib /NOLOGO C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.obj C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\ListView.obj C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\stdafx.obj C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\INIReg.obj
+     1>stdafx.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Common.vcxproj -> C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.lib
+       _AfterBuild:
+         Deleting file "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.unsuccessfulbuild".
+         Touching "C:\Users\William\Documents\Cracklock\obj_x64_Debug\Common\Common.lastbuildstate".
+     1>Done Building Project "C:\Users\William\Documents\Cracklock\Common\Common.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.27

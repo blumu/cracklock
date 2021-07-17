@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1115306044 d:\documents\cracklock\testunicode\testunicode.rc
+
+1115461592 d:\documents\cracklock\testunicode\testunicode.cpp
+	<windows.h>
+	<stdlib.h>
+	<malloc.h>
+	<memory.h>
+	<tchar.h>
+	<commctrl.h>
+	<commdlg.h>
+	"resource.h"
+
+1115299008 d:\documents\cracklock\testunicode\resource.h
+

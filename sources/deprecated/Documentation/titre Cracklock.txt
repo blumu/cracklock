@@ -1,0 +1,7 @@
+ CCCCCCC    RRRRRR     AAAAAA     CCCCCCC   K      K   LL          OOOOOO     CCCCCCC   K      K
+C          R      R   A      A   C          K     K    LL         O      O   C          K     K
+C          R     R    A      A   C          K    K     LL         O      O   C          K    K
+C          RRRRRR     AAAAAAAA   C          KKKKK      LL         O      O   C          KKKKK
+C          R    R     A      A   C          K    K     LL         O      O   C          K    K
+C          R     R    A      A   C          K     K    LL         O      O   C          K     K
+ CCCCCCC   R      R   A      A    CCCCCCC   K      K   LLLLLLLL    OOOOOO     CCCCCCC   K      K

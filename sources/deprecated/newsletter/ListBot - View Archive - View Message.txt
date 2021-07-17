@@ -1,0 +1,54 @@
+ListBot - View Archive - View Message
+
+                   ListBot List Member  ListBot List Owner  ListBuilder  Home  
+                  Help 
+
+
+
+
+
+
+            -|-  Lists  -|-  My Profile  -|-  Help  -|-  Log out  -|- 
+
+            Archive for Cracklock.net newsletter: Message #10 
+            Make this message hidden. 
+            Show Extended Headers 
+                  Date: Jul 24 2001 20:53:07 EDT 
+                  From: "Cracklock.net newsletter" <william@cracklock.net> 
+                  Subject: Cracklock 3.8.3 
+
+Hello,
+
+Cracklock 3.8.3 is available, you can download it at
+http://www.cracklock.net/
+
+This new version includes arabic and croatian dialog boxes and messages.
+There are now 5 languages packaged with Cracklock.
+
+A lot of people told me tbat some softwares can't be cracked with
+Cracklock. Most of the time, you just have to select the application EXE
+file in the dependency tab of the configuration dialog box to force the
+crack. But remember that this will modify the selected file and a vicious
+software can easily detect this.
+
+If you want to know how to configure cracklock for a specific software,
+post a message on the cracklock forum :
+
+http://forums.multimania.fr/lire/cracklock/
+
+
+William BLUM
+william@cracklock.net
+
+
+
+
+
+              
+
+
+
+
+      ©2001 Microsoft Corporation. All rights reserved.         Terms of Use    
+      Advertise    Privacy
+

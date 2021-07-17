@@ -1,0 +1,55 @@
+
+---  MicroBest Resource Localizion GUI
+---  OS:		Windows 95/98/NT (32 bits)
+---  Version:		1.0
+---  Languages:		English
+---  Last revision:	8 july 1999
+
+
+I HOW TO TRANSLATE AN APPLICATION SUCH AS CRACKLOCK
+===================================================
+
+	- Launch PTE.EXE	   
+	- Open the LANGUAGE.PRJ file
+	- translate every line of text. 
+	- save your work,
+	- send the LANGUAGE.TOK file to wblum@multimania.com.
+
+Your work will be released on my website !
+
+
+II NOTE
+=======
+
+	1. The string "English" must be replaced by the name of the translated language
+	(ex: Espãnol, Français, English US, English UK, Russian, Chinese, etc...)
+
+
+	2. You don't have to translate strings containing numbers like following one:
+		
+		 "91   40  195   91 : TDB"
+
+
+	3. The symbol '&' is used to underline the next letter in menus and buttons.
+
+	For example, in this line:
+
+		"&Program"
+
+	the letter 'P' of the 'Program' menu will be underlined so you will be able
+	to access the menu by pressing ALT+P.
+
+	When you translate these type of strings, you can place the & symbol where you want.
+	
+
+ HAVE A GOOD TRANSLATION !
+
+
+III CONTACT
+===========
+
+You can contact me at :
+
+	William BLUM
+	E-mail : ***@***.com
+

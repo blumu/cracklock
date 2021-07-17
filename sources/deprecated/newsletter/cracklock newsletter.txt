@@ -1,0 +1,29 @@
+Cracklock.net newsletter - http://www.cracklock.net/
+
+Cracklock.net updates
+
+Hello !
+
+
+The Cracklock site has moved. Now, you can access it at http://www.cracklock.net
+
+There, you can download Cracklock version 3.8.2. 
+
+Online chat and forum have been added to the site in order to
+let users talk about Cracklock.
+
+Pardon me if I don't reply to your e-mail messages but I'm currently working
+a lot at university because I'm preparing High School entrance examination so
+I've very few time to spend at searching Cracklock bugs (at least if there are
+really bugs in it !).
+
+I will probably write a FAQ in order to answer frequent questions about Cracklock,
+but if someone has any advice to tell to other users, he should send it to me and
+I will post it on the site.
+
+
+Due to my current work, the next release of Cracklock will probably be released on
+next summer holidays (July 2001).
+
+William BLUM
+william@cracklock.net
